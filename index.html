@@ -20,7 +20,9 @@
 
   <script src="data.js"></script>
 <script>
-  render(directoryData);
+  window.onload = () => {
+    render(directoryData);
+  };
 
   function render(data) {
     const container = document.getElementById("directory");

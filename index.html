@@ -18,39 +18,33 @@
   <input type="text" id="search" placeholder="Search by name or designation..." oninput="searchDirectory()" />
   <div id="directory">Loading...</div>
 
-  <script>
-    let directoryData = [];
+  <script src="data.js"></script>
+<script>
+  render(directoryData);
 
-    fetch('data.js')
-      .then(response => response.json())
-      .then(data => {
-        directoryData = data;
-        render(data);
-      });
+  function render(data) {
+    const container = document.getElementById("directory");
+    container.innerHTML = "";
+    data.forEach(person => {
+      container.innerHTML += `
+        <div class="card">
+          <h3>${person.name}</h3>
+          <div class="contact">Designation: ${person.designation}</div>
+          <div class="contact">Phone: ${person.phone}</div>
+          <div class="actions">
+            <a href="tel:${person.phone}">Call</a>
+          </div>
+        </div>`;
+    });
+  }
 
-    function render(data) {
-      const container = document.getElementById("directory");
-      container.innerHTML = "";
-      data.forEach(person => {
-        container.innerHTML += `
-          <div class="card">
-            <h3>${person.name}</h3>
-            <div class="contact">Designation: ${person.designation}</div>
-            <div class="contact">Phone: ${person.phone}</div>
-            <div class="actions">
-              <a href="tel:${person.phone}">Call</a>
-            </div>
-          </div>`;
-      });
-    }
-
-    function searchDirectory() {
-      const query = document.getElementById("search").value.toLowerCase();
-      const filtered = directoryData.filter(p =>
-        Object.values(p).some(val => String(val).toLowerCase().includes(query))
-      );
-      render(filtered);
-    }
-  </script>
+  function searchDirectory() {
+    const query = document.getElementById("search").value.toLowerCase();
+    const filtered = directoryData.filter(p =>
+      Object.values(p).some(val => String(val).toLowerCase().includes(query))
+    );
+    render(filtered);
+  }
+</script>
 </body>
 </html>

@@ -41,11 +41,14 @@
   }
 
   function searchDirectory() {
-    const query = document.getElementById("search").value.toLowerCase();
-    const filtered = directoryData.filter(p =>
-      Object.values(p).some(val => String(val).toLowerCase().includes(query))
-    );
-    render(filtered);
+  const query = document.getElementById("search").value.toLowerCase();
+  const filtered = directoryData.filter(p =>
+    Object.values(p).some(val =>
+      val && String(val).toLowerCase().includes(query)
+    )
+  );
+  render(filtered);
+
   }
 </script>
 </body>

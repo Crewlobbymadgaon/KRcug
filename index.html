@@ -18,76 +18,48 @@
   <input type="text" id="search" placeholder="Search by name or designation..." oninput="searchDirectory()" />
   <div id="directory"></div>
 
+  <!-- Load the data from external file -->
   <script src="data.js"></script>
-<script>
-  window.onload = () => {
-    render(directoryData);
-  };
-  document.addEventListener("DOMContentLoaded", () => {
-    if (typeof directoryData !== "undefined") {
-      render(directoryData);
-    } else {
-      document.getElementById("directory").innerHTML = "<p>Error loading data.</p>";
-    }
-  });
-
-  function render(data) {
-    const container = document.getElementById("directory");
-    container.innerHTML = "";
-
-    if (data.length === 0) {
-      container.innerHTML = "<p>No matching records found.</p>";
-      return;
-    }
-
-    data.forEach(person => {
-      container.innerHTML += `
-        <div class="card">
-          <h3>${person.name}</h3>
-          <div class="contact">Designation: ${person.designation}</div>
-          <div class="contact">Phone: ${person.phone}</div>
-          <div class="actions">
-            <a href="tel:${person.phone}">Call</a>
-          </div>
-        </div>`;
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (typeof directoryData !== "undefined") {
+        render(directoryData);
+      } else {
+        document.getElementById("directory").innerHTML = "<p>Error loading directory data.</p>";
+      }
     });
-  }
 
-  function searchDirectory() {
-    const query = document.getElementById("search").value.toLowerCase();
-    const filtered = directoryData.filter(p =>
-      Object.values(p).some(val =>
-        val && String(val).toLowerCase().includes(query)
-      )
-    );
-    render(filtered);
-  }
-</script>
-  function render(data) {
-    const container = document.getElementById("directory");
-    container.innerHTML = "";
-    data.forEach(person => {
-      container.innerHTML += `
-        <div class="card">
-          <h3>${person.name}</h3>
-          <div class="contact">Designation: ${person.designation}</div>
-          <div class="contact">Phone: ${person.phone}</div>
-          <div class="actions">
-            <a href="tel:${person.phone}">Call</a>
-          </div>
-        </div>`;
-    });
-  }
+    function render(data) {
+      const container = document.getElementById("directory");
+      container.innerHTML = "";
 
-  function searchDirectory() {
-    const query = document.getElementById("search").value.toLowerCase();
-    const filtered = directoryData.filter(p =>
-      Object.values(p).some(val =>
-        val && String(val).toLowerCase().includes(query)
-      )
-    );
-    render(filtered);
-  }
-</script>
+      if (data.length === 0) {
+        container.innerHTML = "<p>No matching records found.</p>";
+        return;
+      }
+
+      data.forEach(person => {
+        container.innerHTML += `
+          <div class="card">
+            <h3>${person.name}</h3>
+            <div class="contact">Designation: ${person.designation}</div>
+            <div class="contact">Phone: ${person.phone}</div>
+            <div class="actions">
+              <a href="tel:${person.phone}">Call</a>
+            </div>
+          </div>`;
+      });
+    }
+
+    function searchDirectory() {
+      const query = document.getElementById("search").value.toLowerCase();
+      const filtered = directoryData.filter(p =>
+        Object.values(p).some(val =>
+          val && String(val).toLowerCase().includes(query)
+        )
+      );
+      render(filtered);
+    }
+  </script>
 </body>
 </html>

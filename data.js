@@ -2040,7 +2040,7 @@ const directoryData = [
     "phone": 9686656201
   },
   {
-    "name": "Krishnakumar L Shetty",
+    "name": "Krishnakumar L Shet",
     "designation": "SRAA/KW",
     "phone": 9686656151
   },
@@ -2126,247 +2126,247 @@ const directoryData = [
   },
   {
     "name": "Jagdish T Naik",
-    "designation": "HEAD T.E/MAQ ",
+    "designation": "HEAD TE/MAQ ",
     "phone": 8310137938
   },
   {
     "name": "Gajanan Bhat",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310137941
   },
   {
     "name": "Siddappa Naik",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310137958
   },
   {
     "name": "Uday M Naik",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310137986
   },
   {
     "name": "Dinesh G Hedge",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310137990
   },
   {
     "name": "Gopala Poojari",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310137994
   },
   {
     "name": "Narayan K Hegde",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138008
   },
   {
     "name": "Praksah V Kanson",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138011
   },
   {
     "name": " Rajesh Devadiga",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138014
   },
   {
     "name": "Sathish R N",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138029
   },
   {
     "name": "K Vasudev Pai",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138031
   },
   {
     "name": "Pradeep Kumar",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138034
   },
   {
     "name": "Chandrakanth Shet M",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138035
   },
   {
     "name": "Peter Devanand L",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138045
   },
   {
     "name": "Kannan A",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138050
   },
   {
     "name": "John Thomas",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138051
   },
   {
     "name": "Rathnakar",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138053
   },
   {
     "name": "Ganesh Padiyar",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138054
   },
   {
     "name": "Babu K",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138060
   },
   {
     "name": "Nagaraja",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138062
   },
   {
     "name": " Suresh Kumar",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138064
   },
   {
     "name": "Vasudeva P Acharya",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138067
   },
   {
     "name": "H Nagaraja",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138070
   },
   {
     "name": "Rajan R",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138093
   },
   {
     "name": "Thimmappa S Gowda",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138102
   },
   {
     "name": "Sasikumar E",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138104
   },
   {
     "name": "P S Vinod",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138149
   },
   {
     "name": "Manohar Poojari",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138167
   },
   {
     "name": "Sheshayya D",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138196
   },
   {
     "name": "Harish Poojari",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138208
   },
   {
     "name": "Thyagaraj Babu P.S",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138237
   },
   {
     "name": "Ravichandra",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138245
   },
   {
     "name": "Maruthi D Naik",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138263
   },
   {
     "name": "Damodara",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138264
   },
   {
     "name": "Jagadish",
-    "designation": "HEAD T.E/MAQ",
+    "designation": "HEAD TE/MAQ",
     "phone": 8310138265
   },
   {
     "name": "Shrinivasa U",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138269
   },
   {
     "name": "Prakash S Hegde",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138273
   },
   {
     "name": "Srinivas Shetty",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138278
   },
   {
     "name": "Sudhakara Devadiga",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138279
   },
   {
     "name": "Raghavendra",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138281
   },
   {
     "name": " Ramesh Mogaveera",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138284
   },
   {
     "name": "Raveendra",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138289
   },
   {
     "name": "Pradeepa",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138339
   },
   {
     "name": "Raghavendra",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138340
   },
   {
     "name": "Ganapati T Mukri",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138343
   },
   {
     "name": "Parameshwar Naik",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138357
   },
   {
     "name": "Sabitha Shetty",
-    "designation": "SR T.E/1/MAQ ",
+    "designation": "SR TE/1/MAQ ",
     "phone": 8310138392
   },
   {
     "name": "Guruprasada S Shetty",
-    "designation": "T.E/MAQ",
+    "designation": "TE/MAQ",
     "phone": 8310138359
   },
   {
     "name": "Raghavendra Devadiga",
-    "designation": "T.E/MAQ",
+    "designation": "TE/MAQ",
     "phone": 8310138397
   },
   {
@@ -2391,11 +2391,11 @@ const directoryData = [
   },
   {
     "name": "Santosh D Naik",
-    "designation": "RPF/Veh/driver/KAWR",
+    "designation": "RPF/Veh.driver/KAWR",
     "phone": 7483804194
   },
   {
-    "name": "-RPF Office/KAWR",
+    "name": "RPF Office/KAWR",
     "designation": "RPF",
     "phone": 9686656144
   },
@@ -2675,7 +2675,7 @@ const directoryData = [
     "phone": 7619122005
   },
   {
-    "name": "L. Rai",
+    "name": "L Rai",
     "designation": "TECLI/KAWR",
     "phone": 7619122006
   },
@@ -2685,12 +2685,12 @@ const directoryData = [
     "phone": 7619122007
   },
   {
-    "name": "A.A. Mascarenhas",
+    "name": "A A Mascarenhas",
     "designation": "TECLI/KAWR",
     "phone": 7619122008
   },
   {
-    "name": "Sudhakara H.",
+    "name": "Sudhakara H",
     "designation": "TECLI/KAWR",
     "phone": 7619122009
   },
@@ -2705,7 +2705,7 @@ const directoryData = [
     "phone": 7619122011
   },
   {
-    "name": "T.P. Palekar",
+    "name": "T P Palekar",
     "designation": "TECLI/BTJL",
     "phone": 7619122012
   },
@@ -2970,7 +2970,7 @@ const directoryData = [
     "phone": 9686683943
   },
   {
-    "name": "S Manivanan Krishnan",
+    "name": "S Manivannan Krishnan",
     "designation": "SSE/S&T/LR/UD",
     "phone": 9686676510
   },

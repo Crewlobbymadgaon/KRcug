@@ -161,9 +161,8 @@
   <script src="data.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-      render([]);
-    });
-
+  // Nothing to render on load
+});
     function render(data) {
       const container = document.getElementById("directory");
       container.innerHTML = data.length === 0
@@ -181,14 +180,22 @@
     }
 
     function searchDirectory() {
-      const query = document.getElementById("search").value.toLowerCase();
-      const filtered = directoryData.filter(p =>
-        Object.values(p).some(val =>
-          String(val).toLowerCase().includes(query)
-        )
-      );
-      render(filtered);
-    }
+  const query = document.getElementById("search").value.toLowerCase();
+
+  if (query === "") {
+    document.getElementById("directory").innerHTML = ""; // Empty if no input
+    return;
+  }
+
+  const filtered = directoryData.filter(p =>
+    Object.values(p).some(val =>
+      String(val).toLowerCase().includes(query)
+    )
+  );
+
+  render(filtered);
+}
+
   </script>
 </body>
 </html>

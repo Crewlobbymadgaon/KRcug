@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Directory</title>
   <style>
     body {
@@ -16,20 +18,43 @@
       color: #333;
     }
 
-    input {
-      width: 100%;
-      padding: 10px;
+    /* Center the search bar */
+    .search-container {
+      display: flex;
+      justify-content: center; /* Center horizontally */
       margin-bottom: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 16px;
-      box-sizing: border-box;
     }
 
+    input {
+      width: 100%;
+      max-width: 500px; /* Maximum width on large screens */
+      padding: 15px;
+      border-radius: 25px;
+      font-size: 18px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-color: #fff;
+      color: #333;
+      transition: all 0.3s ease;
+    }
+
+    /* Add a colorful effect to the search bar */
+    input:focus {
+      border-color: #007bff;
+      outline: none;
+      background-color: #e6f0ff;
+    }
+
+    input::placeholder {
+      color: #888;
+    }
+
+    /* Directory layout */
     #directory {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
+      justify-content: center;
     }
 
     .card {
@@ -78,35 +103,43 @@
       color: #fff;
     }
 
-    /* Mobile Responsive Styling */
+    /* Mobile-friendly styling */
     @media (max-width: 600px) {
-      .card {
-        max-width: 100%; /* Cards will take full width on small screens */
-        margin: 10px 0; /* Add spacing between cards */
+      .search-container {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 15px;
       }
 
       input {
-        font-size: 14px; /* Adjust input font size on mobile */
+        font-size: 14px; /* Adjust input font size */
       }
-    }
 
-    @media (max-width: 400px) {
-      h1 {
-        font-size: 24px; /* Smaller font size for smaller devices */
+      #directory {
+        display: block; /* Stack the directory items */
       }
     }
   </style>
 </head>
 <body>
   <h1>Mobile Directory</h1>
-  <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." />
+  <!-- Search Bar Container -->
+  <div class="search-container">
+    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." />
+  </div>
+
+  <!-- Directory Content -->
   <div id="directory"></div>
 
   <script src="data.js"></script>
   <script>
+    // Initial render with no contacts
+    document.addEventListener("DOMContentLoaded", () => {
+      render([]);
+    });
+
     function render(data) {
       const container = document.getElementById("directory");
-      container.innerHTML = data.map(p => `
+      container.innerHTML = data.length === 0 ? "<p>No contacts found. Try searching!</p>" : data.map(p => `
         <div class="card">
           <h3>${p.name}</h3>
           <p>${p.designation}</p>
@@ -125,12 +158,8 @@
           String(val).toLowerCase().includes(query)
         )
       );
-      render(filtered);
+      render(filtered); // Display only the matching results
     }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      render(directoryData);
-    });
   </script>
 </body>
 </html>

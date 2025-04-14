@@ -315,7 +315,7 @@ const directoryData = [
     "phone": 9004470414
   },
   {
-    "name": "Nisha D'esoza",
+    "name": "Nisha D'souza",
     "designation": "Sr. SO",
     "phone": 9004470612
   },
@@ -435,7 +435,7 @@ const directoryData = [
     "phone": 9004470592
   },
   {
-    "name": "Shailesh G. Sawant",
+    "name": "Shailesh G Sawant",
     "designation": "Sr.CS",
     "phone": 9004470596
   },
@@ -865,7 +865,7 @@ const directoryData = [
     "phone": 9004470483
   },
   {
-    "name": "Maru Murlidharan",
+    "name": "Maru Murlidhar",
     "designation": "SSE",
     "phone": 9004470701
   },
@@ -880,7 +880,7 @@ const directoryData = [
     "phone": 9004470754
   },
   {
-    "name": "Rajesndra M Diwate",
+    "name": "Rajendra M Diwate",
     "designation": "JE/Civil",
     "phone": 9004470764
   },
@@ -1005,7 +1005,7 @@ const directoryData = [
     "phone": 9004470655
   },
   {
-    "name": "Prafulla A. Shendge",
+    "name": "Prafulla A Shendge",
     "designation": "SP",
     "phone": 9004470656
   },
@@ -1050,7 +1050,7 @@ const directoryData = [
     "phone": 9004470640
   },
   {
-    "name": "IT",
+    "name": "IT Control",
     "designation": "CONTROLLER",
     "phone": 9004470555
   },
@@ -1175,7 +1175,7 @@ const directoryData = [
     "phone": 9004470562
   },
   {
-    "name": "Bindu S.Narkar",
+    "name": "Bindu S Narkar",
     "designation": "PS/CMO",
     "phone": 9004470319
   },
@@ -1210,12 +1210,12 @@ const directoryData = [
     "phone": 9004470534
   },
   {
-    "name": "Medical",
+    "name": "Medical Control",
     "designation": "CONTROLLER",
     "phone": 9004470777
   },
   {
-    "name": "V. C. Sinha",
+    "name": "V C Sinha",
     "designation": "PCOM/PROJ",
     "phone": 9004470481
   },
@@ -1275,7 +1275,7 @@ const directoryData = [
     "phone": 9004470788
   },
   {
-    "name": "M.P.Lokesh",
+    "name": "M P Lokesh",
     "designation": "Sr.SM",
     "phone": 9004470883
   },
@@ -1330,7 +1330,7 @@ const directoryData = [
     "phone": 9004470786
   },
   {
-    "name": "Pradeep M. Thanekar",
+    "name": "Pradeep M Thanekar",
     "designation": "ME/TM",
     "phone": 9004470789
   },
@@ -1375,7 +1375,7 @@ const directoryData = [
     "phone": 9004447199
   },
   {
-    "name": "B. B. Nikam",
+    "name": "B B Nikam",
     "designation": "CPO",
     "phone": 9004470360
   },
@@ -1865,12 +1865,12 @@ const directoryData = [
     "phone": 9004470439
   },
   {
-    "name": "Rpf Control",
+    "name": "RPF Control",
     "designation": "RPF",
     "phone": 9004470730
   },
   {
-    "name": "Rpf Control Rail Madat",
+    "name": "RPF Control Rail Madat",
     "designation": "RPF",
     "phone": 9004470731
   },

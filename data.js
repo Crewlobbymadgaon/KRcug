@@ -4025,7 +4025,7 @@ const directoryData = [
     "phone": 7624978592
   },
   {
-    "name": "Anand Sheregar",
+    "name": "Ananda Sheregar",
     "designation": "SGTM/SL ",
     "phone": 7624978593
   },

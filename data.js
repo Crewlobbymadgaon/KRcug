@@ -3841,7 +3841,7 @@ const directoryData = [
   },
   {
     "name": "Satya Narayan",
-    "designation": "Crew Mgr/MAO ",
+    "designation": "CREW MGR/MAO ",
     "phone": 9686736483
   },
   {
@@ -3861,7 +3861,7 @@ const directoryData = [
   },
   {
     "name": "Mahabala Naik",
-    "designation": "Crew Mgr/SL",
+    "designation": "CREW MGR/SL",
     "phone": 9663466157
   },
   {

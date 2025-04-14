@@ -3335,7 +3335,7 @@ const directoryData = [
     "phone": 9686656250
   },
   {
-    "name": "G . Kumaraswamy",
+    "name": "G Kumaraswamy",
     "designation": "SSE/WK/KAWR",
     "phone": 9686656254
   },
@@ -3395,7 +3395,7 @@ const directoryData = [
     "phone": 9686656283
   },
   {
-    "name": "L.M Hegade",
+    "name": "Lakshminarayana M Hegde",
     "designation": "SSE/Pway/CTR/ANKL",
     "phone": 9686656258
   },
@@ -3405,7 +3405,7 @@ const directoryData = [
     "phone": 9686656263
   },
   {
-    "name": "H.S. Sunil",
+    "name": "H S Sunil",
     "designation": "JE/Pway/BTJL",
     "phone": 9686656290
   },
@@ -3420,7 +3420,7 @@ const directoryData = [
     "phone": 9686656270
   },
   {
-    "name": "J.S.Hegade",
+    "name": "J.S.Hegde",
     "designation": "JE/USFDKAWR",
     "phone": 9686656251
   },
@@ -3520,7 +3520,7 @@ const directoryData = [
     "phone": 9686656291
   },
   {
-    "name": "Arun. P",
+    "name": "Arun P",
     "designation": "PWS/SEN",
     "phone": 9686656289
   },
@@ -3831,12 +3831,12 @@ const directoryData = [
   },
   {
     "name": "Satish M Salian",
-    "designation": "LP/SL",
+    "designation": "LPG/SL",
     "phone": 9686698179
   },
   {
     "name": "Ramkrishna",
-    "designation": "LP/SL",
+    "designation": "LPG/SL",
     "phone": 9686738204
   },
   {
@@ -3846,42 +3846,42 @@ const directoryData = [
   },
   {
     "name": "Vijay Kumar",
-    "designation": "LP/MAO",
+    "designation": "LPP/MAO",
     "phone": 9004477874
   },
   {
     "name": "Siyaf Kovoor A",
-    "designation": "LP/MAO",
+    "designation": "LPP/MAO",
     "phone": 9004479345
   },
   {
     "name": "Dinesh P N",
-    "designation": "LP/GDS/SL",
+    "designation": "LPG/SL",
     "phone": 9686600134
   },
   {
     "name": "Mahabala Naik",
-    "designation": "LP/GDS/SL",
+    "designation": "Crew Mgr/SL",
     "phone": 9663466157
   },
   {
     "name": "M Prakash",
-    "designation": "LP/GDS/SL",
+    "designation": "LPG/SL",
     "phone": 9663467992
   },
   {
     "name": "Saanu konnoth",
-    "designation": "LP/MAO",
+    "designation": "LPP/MAO",
     "phone": 9004476729
   },
   {
     "name": "Rajprasad Shetty",
-    "designation": "LP/GDS/SL",
+    "designation": "LPG/SL",
     "phone": 9686847303
   },
   {
     "name": "Saju M G",
-    "designation": "LP/GDS/SL",
+    "designation": "LPG/SL",
     "phone": 9686852792
   },
   {
@@ -3896,12 +3896,12 @@ const directoryData = [
   },
   {
     "name": "Ramakrishna",
-    "designation": "LP/SL",
+    "designation": "LPG/SL",
     "phone": 7624978575
   },
   {
-    "name": "Bhaskar. K. Poojary",
-    "designation": "LP/VEN",
+    "name": "Bhaskar K Poojary",
+    "designation": "LPG/VEN",
     "phone": 7624978576
   },
   {
@@ -3930,7 +3930,7 @@ const directoryData = [
     "phone": 7624978581
   },
   {
-    "name": "Raghavendra. H",
+    "name": "Raghavendra H",
     "designation": "ALP/SL",
     "phone": 7624978582
   },
@@ -3950,7 +3950,7 @@ const directoryData = [
     "phone": 7624978587
   },
   {
-    "name": "Dinesh. D. Moolya",
+    "name": "Dinesh D Moolya",
     "designation": "ALP/SL",
     "phone": 7624978588
   },
@@ -3975,8 +3975,8 @@ const directoryData = [
     "phone": 9686656210
   },
   {
-    "name": "Controller/KAWR",
-    "designation": "CTRL/KW",
+    "name": "KAWR Control",
+    "designation": "Controller",
     "phone": 9686656199
   },
   {

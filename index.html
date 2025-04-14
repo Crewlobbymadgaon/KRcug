@@ -2,9 +2,104 @@
 <html>
 <head>
   <title>Directory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f4f4f9;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    #directory {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 250px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .actions {
+      margin-top: 10px;
+    }
+
+    .actions a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      padding: 5px 10px;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+    }
+
+    .actions a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    /* Mobile Responsive Styling */
+    @media (max-width: 600px) {
+      .card {
+        max-width: 100%; /* Cards will take full width on small screens */
+        margin: 10px 0; /* Add spacing between cards */
+      }
+
+      input {
+        font-size: 14px; /* Adjust input font size on mobile */
+      }
+    }
+
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 24px; /* Smaller font size for smaller devices */
+      }
+    }
+  </style>
 </head>
 <body>
-  <input type="text" oninput="searchDirectory()" id="search" placeholder="Search..." />
+  <h1>Mobile Directory</h1>
+  <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." />
   <div id="directory"></div>
 
   <script src="data.js"></script>
@@ -12,10 +107,13 @@
     function render(data) {
       const container = document.getElementById("directory");
       container.innerHTML = data.map(p => `
-        <div>
+        <div class="card">
           <h3>${p.name}</h3>
           <p>${p.designation}</p>
           <p>${p.phone}</p>
+          <div class="actions">
+            <a href="tel:${p.phone}">Call</a>
+          </div>
         </div>
       `).join('');
     }

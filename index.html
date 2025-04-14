@@ -18,8 +18,20 @@
   <input type="text" id="search" placeholder="Search by name or designation..." oninput="searchDirectory()" />
   <div id="directory"></div>
 
-  <script src="data.js"></script>
   <script>
+    const directoryData = [
+      {
+        "name": "Santosh Kumar Jha",
+        "designation": "CMD",
+        "phone": 9004447000
+      },
+      {
+        "name": "R M Bhadang",
+        "designation": "DIR(F)",
+        "phone": 9004447009
+      }
+    ];
+
     document.addEventListener("DOMContentLoaded", () => {
       if (typeof directoryData !== "undefined") {
         render(directoryData);
@@ -30,28 +42,23 @@
 
     function render(data) {
       const container = document.getElementById("directory");
-      container.innerHTML += 
-  '<div class="card">' +
-    '<h3>' + person.name + '</h3>' +
-    '<div class="contact">Designation: ' + person.designation + '</div>' +
-    '<div class="contact">Phone: ' + person.phone + '</div>' +
-    '<div class="actions">' +
-      '<a href="tel:' + person.phone + '">Call</a>' +
-    '</div>' +
-  '</div>';
+      container.innerHTML = "";
 
+      if (data.length === 0) {
+        container.innerHTML = "<p>No matching records found.</p>";
+        return;
       }
 
       data.forEach(person => {
-        container.innerHTML += \`
+        container.innerHTML += `
           <div class="card">
-            <h3>\${person.name}</h3>
-            <div class="contact">Designation: \${person.designation}</div>
-            <div class="contact">Phone: \${person.phone}</div>
+            <h3>${person.name}</h3>
+            <div class="contact">Designation: ${person.designation}</div>
+            <div class="contact">Phone: ${person.phone}</div>
             <div class="actions">
-              <a href="tel:\${person.phone}">Call</a>
+              <a href="tel:${person.phone}">Call</a>
             </div>
-          </div>\`;
+          </div>`;
       });
     }
 

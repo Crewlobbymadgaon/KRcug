@@ -19,6 +19,7 @@
   <div id="directory"></div>
 
   <script>
+    // Make sure directoryData is defined here if it's not coming from an external file
     const directoryData = [
       {
         "name": "Santosh Kumar Jha",
@@ -32,6 +33,7 @@
       }
     ];
 
+    // Event listener for DOMContentLoaded
     document.addEventListener("DOMContentLoaded", () => {
       if (typeof directoryData !== "undefined") {
         render(directoryData);
@@ -40,6 +42,7 @@
       }
     });
 
+    // Function to render the data
     function render(data) {
       const container = document.getElementById("directory");
       container.innerHTML = "";
@@ -62,6 +65,7 @@
       });
     }
 
+    // Function to handle search
     function searchDirectory() {
       const query = document.getElementById("search").value.toLowerCase();
       const filtered = directoryData.filter(p =>

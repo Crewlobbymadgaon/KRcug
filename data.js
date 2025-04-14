@@ -45,7 +45,7 @@ const directoryData = [
     "phone": 9004470318
   },
   {
-    "name": "Anita Michael Chettiar",
+    "name": "Anita Gracy M Chettiar",
     "designation": "PS/(DIR(W&W)",
     "phone": 9004470715
   },
@@ -70,7 +70,7 @@ const directoryData = [
     "phone": 9004470506
   },
   {
-    "name": "Lallan Mandal",
+    "name": "Lalan Mandal",
     "designation": "GA",
     "phone": 9004470744
   },
@@ -105,7 +105,7 @@ const directoryData = [
     "phone": 9004470309
   },
   {
-    "name": "Pramod kumar Sabot",
+    "name": "Pramod Kumar Sabot",
     "designation": "Asst.Co.Sec.",
     "phone": 9004470608
   },
@@ -415,7 +415,7 @@ const directoryData = [
     "phone": 9004470489
   },
   {
-    "name": "Rajesh M Deasi",
+    "name": "Rajesh M Desai",
     "designation": "Sr.CS",
     "phone": 9004470587
   },
@@ -425,7 +425,7 @@ const directoryData = [
     "phone": 9004470588
   },
   {
-    "name": "Soniya R Machomodkar",
+    "name": "Soniya R Mochemadkar",
     "designation": "Sr.CS",
     "phone": 9004470973
   },

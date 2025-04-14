@@ -3846,42 +3846,42 @@ const directoryData = [
   },
   {
     "name": "Vijay Kumar",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004477874
   },
   {
     "name": "Siyaf Kovoor A",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479345
   },
   {
     "name": "Dinesh P N",
-    "designation": "LPG/SL",
+    "designation": "LP/GDS/SL",
     "phone": 9686600134
   },
   {
     "name": "Mahabala Naik",
-    "designation": "CMGR/SL",
+    "designation": "LP/GDS/SL",
     "phone": 9663466157
   },
   {
-    "name": "M Prakasha",
-    "designation": "LPG/SL",
+    "name": "M Prakash",
+    "designation": "LP/GDS/SL",
     "phone": 9663467992
   },
   {
-    "name": "Saanu Kunnoth",
+    "name": "Saanu konnoth",
     "designation": "LP/MAO",
     "phone": 9004476729
   },
   {
     "name": "Rajprasad Shetty",
-    "designation": "LPG/SL",
+    "designation": "LP/GDS/SL",
     "phone": 9686847303
   },
   {
     "name": "Saju M G",
-    "designation": "LPG/SL",
+    "designation": "LP/GDS/SL",
     "phone": 9686852792
   },
   {
@@ -3900,7 +3900,7 @@ const directoryData = [
     "phone": 7624978575
   },
   {
-    "name": "Bhaskar K Poojary",
+    "name": "Bhaskar. K. Poojary",
     "designation": "LP/VEN",
     "phone": 7624978576
   },
@@ -6830,12 +6830,12 @@ const directoryData = [
     "phone": 9004478830
   },
   {
-    "name": "Atmaram M Naik",
+    "name": "Atmaram M.Naik",
     "designation": "GTM",
     "phone": 9004478475
   },
   {
-    "name": "V D Rane",
+    "name": "V.D.Rane",
     "designation": "GTM",
     "phone": 9004478819
   },
@@ -10411,52 +10411,52 @@ const directoryData = [
   },
   {
     "name": "J P S Chauhan",
-    "designation": "LPG/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479339
   },
   {
     "name": "Uday V Naik",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479340
   },
   {
     "name": "Pradeep C",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479341
   },
   {
     "name": "Shibu A Antony",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479342
   },
   {
     "name": "Biju A P",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479343
   },
   {
     "name": "Sajeesh P",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479344
   },
   {
     "name": "Siyaf Kovoor",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479345
   },
   {
     "name": "Rajeeve K P",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479346
   },
   {
     "name": "Saju M G",
-    "designation": "LPG/SL",
+    "designation": "LP/SL",
     "phone": 9004479347
   },
   {
-    "name": "Sreekumar T V",
-    "designation": "LPG/VEN",
+    "name": "Shrikumar T V",
+    "designation": "LP/VEN",
     "phone": 9004479348
   },
   {
@@ -10466,67 +10466,67 @@ const directoryData = [
   },
   {
     "name": "Saju Paul Devacy",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479350
   },
   {
-    "name": "Vijaya Krishnan P G",
-    "designation": "LPG/VEN",
+    "name": "Vijaya Krishnan",
+    "designation": "LP/VEN",
     "phone": 9004479351
   },
   {
     "name": "Jaju Jathan",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479352
   },
   {
-    "name": "Shaji Thomas",
-    "designation": "LPP/MAO",
+    "name": "Saji Thomas",
+    "designation": "LP/MAO",
     "phone": 9004479353
   },
   {
     "name": "Mohankumar S",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479354
   },
   {
     "name": "Balakrishnan M V",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479355
   },
   {
     "name": "Manjunath Naik",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479356
   },
   {
     "name": "Binda Venkata Suresh",
-    "designation": "LPP/MAO",
+    "designation": "LP/MAO",
     "phone": 9004479357
   },
   {
     "name": "Viresh Desai",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004478028
   },
   {
-    "name": "Kevin J D'costa",
-    "designation": "LPG/VEN",
+    "name": "Kevin J D'souza",
+    "designation": "LP/VEN",
     "phone": 9004478040
   },
   {
     "name": "Rajesh Desai",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004478042
   },
   {
     "name": "Girish S Manjerekar",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004478041
   },
   {
     "name": "Gurudas Gaude",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004478027
   },
   {
@@ -10536,22 +10536,22 @@ const directoryData = [
   },
   {
     "name": "Leo J M",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479047
   },
   {
-    "name": "Prasanna D Nagekar",
-    "designation": "LPG/VEN",
+    "name": "P.D.Nagekar",
+    "designation": "LP/VEN",
     "phone": 9004479046
   },
   {
     "name": "Vishnu P Parab",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004479048
   },
   {
     "name": "Vijay Krishna",
-    "designation": "LPG/VEN",
+    "designation": "LP/VEN",
     "phone": 9004474435
   },
   {
@@ -10561,7 +10561,7 @@ const directoryData = [
   },
   {
     "name": "Sagar Surve",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 9004474437
   },
   {
@@ -10575,7 +10575,7 @@ const directoryData = [
     "phone": 9004474447
   },
   {
-    "name": "Chester D Torres",
+    "name": "S D Torres",
     "designation": "LPG/VEN",
     "phone": 9004474448
   },
@@ -10585,7 +10585,7 @@ const directoryData = [
     "phone": 9004474453
   },
   {
-    "name": "Santosh N Tambe",
+    "name": "S N Tambe",
     "designation": "LPG/RN",
     "phone": 9004474430
   },
@@ -10595,13 +10595,13 @@ const directoryData = [
     "phone": 9004474432
   },
   {
-    "name": "Avadhut B Pingulkar",
+    "name": "A B Pingulkar",
     "designation": "LPG/VEN",
     "phone": 9004474428
   },
   {
     "name": "Rajesha",
-    "designation": "LPG/SL",
+    "designation": "LP/SL",
     "phone": 9004474427
   },
   {
@@ -10626,7 +10626,7 @@ const directoryData = [
   },
   {
     "name": "Prasad V Naik",
-    "designation": "LPS/MAO",
+    "designation": "LP/MAO",
     "phone": 7400408232
   },
   {
@@ -10671,7 +10671,7 @@ const directoryData = [
   },
   {
     "name": "Sohail M",
-    "designation": "SM/MAO",
+    "designation": "ALP/MAO",
     "phone": 7400408282
   },
   {
@@ -10735,7 +10735,7 @@ const directoryData = [
     "phone": 7400408288
   },
   {
-    "name": "Timmappa Sherugar",
+    "name": "Timmappa",
     "designation": "ALP/MAO",
     "phone": 7400408289
   },
@@ -10745,12 +10745,12 @@ const directoryData = [
     "phone": 7400408290
   },
   {
-    "name": "Prakash Moger",
+    "name": "Prakash.Mogera",
     "designation": "ALP/MAO",
     "phone": 7400408291
   },
   {
-    "name": "Mohan J Naik",
+    "name": "Mohan.J.Naik",
     "designation": "ALP/MAO",
     "phone": 7400408292
   },
@@ -10760,7 +10760,7 @@ const directoryData = [
     "phone": 7400408293
   },
   {
-    "name": "Abhijit V K",
+    "name": "Abhijit V. K",
     "designation": "ALP/MAO",
     "phone": 9356922278
   },
@@ -10781,7 +10781,7 @@ const directoryData = [
   },
   {
     "name": "Nikhil sawant",
-    "designation": "CA/MAO",
+    "designation": "ALP/MAO",
     "phone": 9356922282
   },
   {
@@ -10796,7 +10796,7 @@ const directoryData = [
   },
   {
     "name": "Manjunath A Naik",
-    "designation": "GTM/VEN",
+    "designation": "ALP/MAO",
     "phone": 9356922285
   },
   {
@@ -10811,22 +10811,22 @@ const directoryData = [
   },
   {
     "name": "Suraj Gamare",
-    "designation": "ALP/RN",
+    "designation": "LP/MAO",
     "phone": 9356922289
   },
   {
     "name": "Paresh D",
-    "designation": "ALP/MAO",
+    "designation": "LP/MAO",
     "phone": 9356922319
   },
   {
     "name": "Rohan Khedekar",
-    "designation": "GTM/VEN",
+    "designation": "LP/MAO",
     "phone": 9356922291
   },
   {
-    "name": "Shrinivas C",
-    "designation": "ALP/MAO",
+    "name": "Shrinivas. C",
+    "designation": "LP/MAO",
     "phone": 9356922292
   },
   {
@@ -10836,7 +10836,7 @@ const directoryData = [
   },
   {
     "name": "Sanjay Chopadekar",
-    "designation": "PRC/BEL",
+    "designation": "LP/VEN",
     "phone": 7400408172
   },
   {
@@ -10865,18 +10865,18 @@ const directoryData = [
     "phone": 7400408181
   },
   {
-    "name": "R P Khedekar",
+    "name": "R.P. khedekar",
     "designation": "ALP/VEN",
     "phone": 7400408194
   },
-  }
+  {
     "name": "Mahadhev Thakur",
     "designation": "ALP/MAO",
     "phone": 7400408213
   },
   {
     "name": "Avinash Gavali",
-    "designation": "JE/EL/MAO",
+    "designation": "ALP/VEN",
     "phone": 7400408227
   },
   {
@@ -10891,12 +10891,12 @@ const directoryData = [
   },
   {
     "name": "Rohit K",
-    "designation": "SM",
+    "designation": "LP/VEN",
     "phone": 7400408183
   },
   {
     "name": "Nikhil Kadam",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408195
   },
   {
@@ -10905,13 +10905,13 @@ const directoryData = [
     "phone": 7400408196
   },
   {
-    "name": "Mohseen Iqbal Naik",
-    "designation": "ALP/VEN",
+    "name": "Mohan Naik",
+    "designation": "LP/VEN",
     "phone": 7400408197
   },
   {
     "name": "Pradeep P G",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408198
   },
   {
@@ -10921,22 +10921,22 @@ const directoryData = [
   },
   {
     "name": "Rupesh J",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408214
   },
   {
     "name": "Sujit Pawar",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408225
   },
   {
     "name": "M A Khedekar",
-    "designation": "LPM/RN",
+    "designation": "LP/RN",
     "phone": 9004474821
   },
   {
-    "name": "Sarvesh Mohan Thanekar",
-    "designation": "ALP/VEN",
+    "name": "Sarvesh Mohan T",
+    "designation": "LP/VEN",
     "phone": 7400408180
   },
   {
@@ -10945,53 +10945,53 @@ const directoryData = [
     "phone": 7400408182
   },
   {
-    "name": "Dhanajaya B Acharya",
-    "designation": "ALP/MAO",
+    "name": "Dhanajaya",
+    "designation": "LP/MAO",
     "phone": 7400408184
   },
   {
     "name": "Kamalkant Gaonkar",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408185
   },
   {
     "name": "Bhagyesh Gurav",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408186
   },
   {
     "name": "Sadanand Naik",
-    "designation": "ALP/MAO",
+    "designation": "LP/MAO",
     "phone": 7400408187
   },
   {
-    "name": "Dattaram Sawal",
-    "designation": "ALP/MAO",
+    "name": "Dattaram S",
+    "designation": "LP/MAO",
     "phone": 7400408188
   },
   {
-    "name": "Suchit G Bhuran",
-    "designation": "ALP/RN",
+    "name": "S G Bhuran",
+    "designation": "LP/VEN",
     "phone": 7400408189
   },
   {
-    "name": "Goutam Mayekar",
-    "designation": "ALP/MAO",
+    "name": "Goutam M",
+    "designation": "LP/MAO",
     "phone": 7400408190
   },
   {
     "name": "Manoj Kumara",
-    "designation": "ALP/VEN",
+    "designation": "LP/VEN",
     "phone": 7400408191
   },
   {
-    "name": "Chandrakant S Madkaikar",
-    "designation": "ALP/MAO",
+    "name": "Chandrakant",
+    "designation": "ALP/VEN",
     "phone": 7400408192
   },
   {
     "name": "Ankur Kadam",
-    "designation": "ALP/RN",
+    "designation": "LP/VEN",
     "phone": 7400408193
   },
   {
@@ -11005,17 +11005,17 @@ const directoryData = [
     "phone": 7400408202
   },
   {
-    "name": "Majunath I Naik",
-    "designation": "ALP/MAO",
+    "name": "Majunath N",
+    "designation": "LP/MAO",
     "phone": 7400408205
   },
   {
-    "name": "Suresha",
-    "designation": "ALP/MAO",
+    "name": "Suresh",
+    "designation": "LP/MAO",
     "phone": 7400408206
   },
   {
-    "name": "Kashiram Pednekar",
+    "name": "Kashiram",
     "designation": "ALP/MAO",
     "phone": 7400408207
   },
@@ -11025,7 +11025,7 @@ const directoryData = [
     "phone": 7400408208
   },
   {
-    "name": "Thimmappa Devadiga",
+    "name": "Thimmappa",
     "designation": "ALP/MAO",
     "phone": 7400408209
   },
@@ -11055,72 +11055,72 @@ const directoryData = [
     "phone": 7400408216
   },
   {
-    "name": "Vijay Manjarekar",
+    "name": "Vijay Manjrekar",
     "designation": "ALP/VEN",
     "phone": 7400408217
   },
   {
     "name": "Prakash S",
-    "designation": "ALP/MAO",
+    "designation": "LP/MAO",
     "phone": 7400408218
   },
   {
-    "name": "Sandesh Patkar",
+    "name": "Sandesh P",
     "designation": "ALP/VEN",
     "phone": 7400408220
   },
   {
-    "name": "Tukaram Babu Khambe",
-    "designation": "ALP/RN",
+    "name": "Tukaram K",
+    "designation": "ALP/VEN",
     "phone": 7400408221
   },
   {
-    "name": "Bhaskar Devadiga",
+    "name": "Bhaskar D",
     "designation": "ALP/MAO",
     "phone": 7400408222
   },
   {
-    "name": "Vishal Powar",
-    "designation": "ALP/RN",
+    "name": "Vishal P",
+    "designation": "ALP/VEN",
     "phone": 7400408224
   },
   {
-    "name": "Kundan Jadhav",
-    "designation": "ALP/RN",
+    "name": "Kundan J",
+    "designation": "ALP/VEN",
     "phone": 7400408226
   },
   {
-    "name": "ART/VEN",
+    "name": "Unknown",
     "designation": "ART/VEN",
     "phone": 9004477564
   },
   {
-    "name": "ART/VEN",
+    "name": "Unknown",
     "designation": "ART/VEN",
     "phone": 9004477571
   },
   {
-    "name": "ART/VEN",
+    "name": "Unknown",
     "designation": "ART/VEN",
     "phone": 9004477572
   },
   {
-    "name": "ARMV/VEN",
+    "name": "Unknown",
     "designation": "ARMV/VEN",
     "phone": 9004477573
   },
   {
-    "name": "ARMV/VEN",
+    "name": "Unknown",
     "designation": "ARMV/VEN",
     "phone": 9004477575
   },
   {
-    "name": "ARMV/VEN",
+    "name": "Unknown",
     "designation": "ARMV/VEN",
     "phone": 9004477577
   },
   {
-    "name": "RCD-Fuelling Point",
+    "name": "RCD- Fuelling Point",
     "designation": "RCD/MAO",
     "phone": 9004476975
   },
@@ -11130,13 +11130,13 @@ const directoryData = [
     "phone": 9004474434
   },
   {
-    "name": "Lobby MAO",
-    "designation": "LOBBY MAO",
+    "name": "Lobby CTRL MAO",
+    "designation": "LOBBY CTRL",
     "phone": 9004477112
   },
   {
-    "name": "Lobby VEN",
-    "designation": "LOBBY VEN",
+    "name": "Lobby Control VEN",
+    "designation": "LOBBY CTRL",
     "phone": 9004477114
   },
   {
@@ -11166,7 +11166,7 @@ const directoryData = [
   },
   {
     "name": "Virendra Kumar",
-    "designation": "AS/RN",
+    "designation": "AS/VEN",
     "phone": 9004476733
   },
   {
@@ -11186,7 +11186,7 @@ const directoryData = [
   },
   {
     "name": "Molu Datta Velip",
-    "designation": "METM/MAO",
+    "designation": "GTM/VEN",
     "phone": 9004476144
   },
   {
@@ -11200,7 +11200,7 @@ const directoryData = [
     "phone": 9004476168
   },
   {
-    "name": "Harishchandra P Kaskar",
+    "name": "Harishchandra P Kasar",
     "designation": "GTM/VEN",
     "phone": 9004476170
   },
@@ -11280,38 +11280,38 @@ const directoryData = [
     "phone": 9004478445
   },
   {
-    "name": "Chadrashekhara S V",
+    "name": "Chndrashekhara S V",
     "designation": "GTM/VEN",
     "phone": 9004478143
   },
   {
     "name": "Eramveetil Manoj",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479073
   },
   {
     "name": "Sabin P Jose",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479085
   },
   {
     "name": "Chidanand G",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479114
   },
   {
     "name": "Prakash L",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479115
   },
   {
     "name": "Venkatesh R Bhandari",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479116
   },
   {
     "name": "Dinesh P Kalas",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479118
   },
   {
@@ -11326,37 +11326,37 @@ const directoryData = [
   },
   {
     "name": "Deepak V Shetty",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479147
   },
   {
     "name": "Krishna A Gawade",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479148
   },
   {
     "name": "Dhirendra S Singh",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479149
   },
   {
     "name": "Gajanan V Arolkar",
-    "designation": "TMMGR/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479152
   },
   {
     "name": "Bhanuprakash Kasturi",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479175
   },
   {
-    "name": "Yogesh Bhat",
-    "designation": "TNC/MAO",
+    "name": "Sawant Ganpat",
+    "designation": "ME/TM/MAO",
     "phone": 9004479176
   },
   {
     "name": "J Alderine",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479177
   },
   {
@@ -11370,88 +11370,88 @@ const directoryData = [
     "phone": 9004479179
   },
   {
-    "name": "Anil D Habbu",
-    "designation": "OS/KAWR",
+    "name": "Anil D Haboo",
+    "designation": "ME/TM/MAO",
     "phone": 9004479186
   },
   {
     "name": "Ganpati N Hegade",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479187
   },
   {
     "name": "Raghuveer Ishwar Naik",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/MAO",
     "phone": 9004479199
   },
   {
     "name": "Ashok S Devadiga",
-    "designation": "METM/MAO",
+    "designation": "ME/GTM/MAO",
     "phone": 9004479224
   },
   {
     "name": "Ramdas S Naik",
-    "designation": "METM/MAO",
+    "designation": "SPA/TM/MAO",
     "phone": 9004479225
   },
   {
     "name": "Salunkhe Anil Raya",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479226
   },
   {
-    "name": "Pratap Chandra Tiu",
-    "designation": "METM/MAO",
+    "name": "Pratapchandra Tiu",
+    "designation": "SPA/TM/MAO",
     "phone": 9004479267
   },
   {
     "name": "Naik Prakash Pada",
-    "designation": "METM/MAO",
+    "designation": "PA/GD/MAO",
     "phone": 9004479268
   },
   {
     "name": "Sujoy Biswas",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479269
   },
   {
-    "name": "Radha Krishna Shetty",
-    "designation": "METM/MAO",
+    "name": "Radhakrishna Shetty",
+    "designation": "PA/TM/VEN",
     "phone": 9004479270
   },
   {
     "name": "Girish G Hegade",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/MAO",
     "phone": 9004479281
   },
   {
     "name": "Ramesh Nanda Gaonkar",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/MAO",
     "phone": 9004479282
   },
   {
     "name": "Suresh N Shetty",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/MAO",
     "phone": 9004479283
   },
   {
     "name": "Datta T Hegade",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/VEN",
     "phone": 9004479284
   },
   {
     "name": "Sannaya M Naik",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/VEN",
     "phone": 9004479285
   },
   {
     "name": "Prakash C Biswas",
-    "designation": "METM/MAO",
+    "designation": "ME/TM/MAO",
     "phone": 9004479287
   },
   {
     "name": "Binodkumar Poddar",
-    "designation": "METM/RN",
+    "designation": "GTM/VEN",
     "phone": 9004479288
   },
   {
@@ -11461,57 +11461,57 @@ const directoryData = [
   },
   {
     "name": "Vikas S Rao K",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479290
   },
   {
     "name": "Ritesh K Shetty",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479291
   },
   {
     "name": "Subhashchandra B Shetty",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479292
   },
   {
     "name": "Suresh J Acharya",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479293
   },
   {
     "name": "Mohamd Ismile",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479294
   },
   {
-    "name": "Kishor D Gaunkar",
-    "designation": "METM/MAO",
+    "name": "Kishor D Naikgaunkar",
+    "designation": "SGTM/VEN",
     "phone": 9004479295
   },
   {
     "name": "Hanumanta S Gouda",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/VEN",
     "phone": 9004479296
   },
   {
     "name": "Satyananad J Shetty",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479297
   },
   {
-    "name": "Sudhir Kumar Shetty",
-    "designation": "METM/MAO",
+    "name": "Sudhirkumar Shetty",
+    "designation": "SGTM/VEN",
     "phone": 9004479299
   },
   {
     "name": "Mani G Naik",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479301
   },
   {
-    "name": "Krishana Kumar Shetty",
-    "designation": "METM/MAO",
+    "name": "Krishanakumar Shetty",
+    "designation": "SGTM/VEN",
     "phone": 9004479302
   },
   {
@@ -11521,22 +11521,22 @@ const directoryData = [
   },
   {
     "name": "Ganapati S Naik",
-    "designation": "PTM/VEN",
+    "designation": "SGTM/VEN",
     "phone": 9004479304
   },
   {
     "name": "P K Venkatesh",
-    "designation": "PTM/VEN",
+    "designation": "SGTM/VEN",
     "phone": 9004479305
   },
   {
     "name": "Dinesh S Pai",
-    "designation": "PTM/VEN",
+    "designation": "SGTM/VEN",
     "phone": 9004479306
   },
   {
-    "name": "Chidanand K V",
-    "designation": "METM/MAO",
+    "name": "C V Kundapur",
+    "designation": "SGTM/VEN",
     "phone": 9004479307
   },
   {
@@ -11556,12 +11556,12 @@ const directoryData = [
   },
   {
     "name": "Honnayya M Gonda",
-    "designation": "METM/MAO",
+    "designation": "SGTM/VEN",
     "phone": 9004479311
   },
   {
     "name": "Ramesh R Gawade",
-    "designation": "METM/MAO",
+    "designation": "GTM/VEN",
     "phone": 9004479312
   },
   {
@@ -11596,12 +11596,12 @@ const directoryData = [
   },
   {
     "name": "Sadananda G Bandekar",
-    "designation": "METM/MAO",
+    "designation": "PA/TM/VEN",
     "phone": 9004479322
   },
   {
     "name": "Pratik Patil",
-    "designation": "GTM/VEN",
+    "designation": "TM/GD/VEN",
     "phone": 7400408788
   },
   {
@@ -11620,8 +11620,8 @@ const directoryData = [
     "phone": 7400408792
   },
   {
-    "name": "Balakrishna K Naik",
-    "designation": "PTM/MAO",
+    "name": "Balakrishna Naik",
+    "designation": "GTM/VEN",
     "phone": 7400408793
   },
   {
@@ -11725,58 +11725,58 @@ const directoryData = [
     "phone": 9004476382
   },
   {
-    "name": "EIMWB/VEN-1",
+    "name": "Unknown",
     "designation": "EIMWB/VEN-1",
     "phone": 9004477580
   },
   {
-    "name": "EIMWB/VEN-2",
+    "name": "Unknown",
     "designation": "EIMWB/VEN-2",
     "phone": 7400408263
   },
   {
-    "name": "Pernem",
-    "designation": "PERN Station",
+    "name": "Unknown",
+    "designation": "PERN STN",
     "phone": 9004476889
   },
   {
-    "name": "Thivim",
-    "designation": "THVM Station",
+    "name": "Unknown",
+    "designation": "THVM STN",
     "phone": 9004476890
   },
   {
-    "name": "Karmali",
-    "designation": "KRMI Station",
+    "name": "Unknown",
+    "designation": "KRMI STN",
     "phone": 9004476891
   },
   {
-    "name": "Verna",
-    "designation": "VEN Station",
+    "name": "Unknown",
+    "designation": "VEN STN",
     "phone": 9004476892
   },
   {
-    "name": "Majorda",
-    "designation": "MJO Station",
+    "name": "Unknown",
+    "designation": "MJO STN",
     "phone": 9004476893
   },
   {
-    "name": "Madgaon",
-    "designation": "MAO Station",
+    "name": "Unknown",
+    "designation": "MAO STN",
     "phone": 9004476894
   },
   {
-    "name": "Balli",
-    "designation": "BLLI Station",
+    "name": "Unknown",
+    "designation": "BALL STN",
     "phone": 7498815598
   },
   {
-    "name": "Canacona",
-    "designation": "CNO Station",
+    "name": "Unknown",
+    "designation": "CNO STN",
     "phone": 9004476896
   },
   {
-    "name": "Loliem",
-    "designation": "LOL Station",
+    "name": "Unknown",
+    "designation": "LOL STN",
     "phone": 9004476879
   }
 ];

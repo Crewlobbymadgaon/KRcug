@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KR Mobile Directory</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; max-width: 700px; margin: auto; }
+    input { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+    .card { border: 1px solid #ddd; border-radius: 6px; padding: 10px; margin-bottom: 10px; }
+    .card h3 { margin: 0; }
+    .contact { font-size: 14px; margin: 5px 0; }
+    .actions a { margin-right: 10px; text-decoration: none; color: #007BFF; }
+  </style>
+</head>
+<body>
+  <h2>KR Mobile Directory</h2>
+  <input type="text" id="search" placeholder="Search by name or designation..." oninput="searchDirectory()" />
+  <div id="directory"></div>
+
+  <script src="data.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (typeof directoryData !== "undefined") {
+        render(directoryData);
+      } else {
+        document.getElementById("directory").innerHTML = "<p>Error loading data.</p>";
+      }
+    });
+
+    function render(data) {
+      const container = document.getElementById("directory");
+      container.innerHTML = "";
+
+      if (data.length === 0) {
+        container.innerHTML = "<p>No matching records found.</p>";
+        return;
+      }
+
+      data.forEach(person => {
+        container.innerHTML += \`
+          <div class="card">
+            <h3>\${person.name}</h3>
+            <div class="contact">Designation: \${person.designation}</div>
+            <div class="contact">Phone: \${person.phone}</div>
+            <div class="actions">
+              <a href="tel:\${person.phone}">Call</a>
+            </div>
+          </div>\`;
+      });
+    }
+
+    function searchDirectory() {
+      const query = document.getElementById("search").value.toLowerCase();
+      const filtered = directoryData.filter(p =>
+        Object.values(p).some(val =>
+          val && String(val).toLowerCase().includes(query)
+        )
+      );
+      render(filtered);
+    }
+  </script>
+</body>
+</html>

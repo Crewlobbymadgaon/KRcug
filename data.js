@@ -150,7 +150,7 @@ const directoryData = [
     "phone": 9004470748
   },
   {
-    "name": "Girish R.Karandikar",
+    "name": "Girish R Karandikar",
     "designation": "CPRO",
     "phone": 9004470387
   },
@@ -315,7 +315,7 @@ const directoryData = [
     "phone": 9004470414
   },
   {
-    "name": "Nisha D'souza",
+    "name": "Nisha D'Souza",
     "designation": "Sr. SO",
     "phone": 9004470612
   },
@@ -635,8 +635,8 @@ const directoryData = [
     "phone": 9004470547
   },
   {
-    "name": "Sreenivas N. Eppawar",
-    "designation": "TECLI- I",
+    "name": "Sreenivas N Eppawar",
+    "designation": "TECLI-I",
     "phone": 9004470549
   },
   {
@@ -720,7 +720,7 @@ const directoryData = [
     "phone": 9004470520
   },
   {
-    "name": "M. P. Ughade",
+    "name": "M P Ughade",
     "designation": "SSE",
     "phone": 9004470522
   },
@@ -826,7 +826,7 @@ const directoryData = [
   },
   {
     "name": "Vishal Bhatti",
-    "designation": "ADD.CPM /FAB/INSP",
+    "designation": "ADD.CPM/FAB/INSP",
     "phone": 9004470457
   },
   {
@@ -970,12 +970,12 @@ const directoryData = [
     "phone": 9004470635
   },
   {
-    "name": "R. Thangam",
+    "name": "R Thangam",
     "designation": "SP",
     "phone": 9004470637
   },
   {
-    "name": "K.Durgaprasad",
+    "name": "K Durgaprasad",
     "designation": "SP",
     "phone": 9004470628
   },
@@ -1860,7 +1860,7 @@ const directoryData = [
     "phone": 9004470419
   },
   {
-    "name": "P.V.Jadhav",
+    "name": "P V Jadhav",
     "designation": "OS/RPF",
     "phone": 9004470439
   },

@@ -4180,8 +4180,8 @@ const directoryData = [
     "phone": 9004474501
   },
   {
-    "name": "S.G.Kadam",
-    "designation": "Dr./AEN",
+    "name": "S G Kadam",
+    "designation": "Dr/AEN",
     "phone": 9004474791
   },
   {
@@ -4191,22 +4191,22 @@ const directoryData = [
   },
   {
     "name": "B.P.Manorkar",
-    "designation": "Dr./ASTE/CHI",
+    "designation": "Dr/ASTE/CHI",
     "phone": 9004474796
   },
   {
     "name": "Vikas Peje",
-    "designation": "Dr./RRM",
+    "designation": "Dr/RRM",
     "phone": 9004474788
   },
   {
     "name": "Santosh Mulye",
-    "designation": "Dr./AOM",
+    "designation": "Dr/AOM",
     "phone": 9004474792
   },
   {
     "name": "U.A.Joshi",
-    "designation": "Dr./RME",
+    "designation": "Dr/RME",
     "phone": 9004474793
   },
   {
@@ -4215,7 +4215,7 @@ const directoryData = [
     "phone": 9004474882
   },
   {
-    "name": "A.S.Sawardekar",
+    "name": "A S Sawardekar",
     "designation": "Dr/SEN/CHI",
     "phone": 9004474859
   },
@@ -4235,7 +4235,7 @@ const directoryData = [
     "phone": 9004474516
   },
   {
-    "name": "A.Sawant",
+    "name": "A Sawant",
     "designation": "SO/RN",
     "phone": 9004474518
   },
@@ -4245,7 +4245,7 @@ const directoryData = [
     "phone": 9004474517
   },
   {
-    "name": "V.V.Pandere",
+    "name": "V V Pandere",
     "designation": "AA(SI)/RN",
     "phone": 9004474934
   },
@@ -4260,7 +4260,7 @@ const directoryData = [
     "phone": 9004474577
   },
   {
-    "name": "S.V.Mulye",
+    "name": "S V Mulye",
     "designation": "CS/RN",
     "phone": 9004474525
   },
@@ -4275,7 +4275,7 @@ const directoryData = [
     "phone": 9004474531
   },
   {
-    "name": "M.D.Matondkar",
+    "name": "M D Matondkar",
     "designation": "CS/RN",
     "phone": 9004474528
   },
@@ -4285,7 +4285,7 @@ const directoryData = [
     "phone": 7400408330
   },
   {
-    "name": "R.P.Joshi",
+    "name": "R P Joshi",
     "designation": "REE/RN",
     "phone": 9004474413
   },
@@ -4335,12 +4335,12 @@ const directoryData = [
     "phone": 9004474591
   },
   {
-    "name": "Unknown",
+    "name": "SSE/RE/RN",
     "designation": "SSE/RE/RN",
     "phone": 7410045349
   },
   {
-    "name": "escallator",
+    "name": "Escallator",
     "designation": "SSE/EL",
     "phone": 7400408739
   },
@@ -4365,7 +4365,7 @@ const directoryData = [
     "phone": 7410100475
   },
   {
-    "name": "Vasudev R. Gawas",
+    "name": "Vasudev R Gawas",
     "designation": "SSE/KUDL",
     "phone": 8766751288
   },
@@ -4400,7 +4400,7 @@ const directoryData = [
     "phone": 9004474588
   },
   {
-    "name": "Common Used",
+    "name": "JEE/TL/RN",
     "designation": "JEE/TL/RN",
     "phone": 7400408343
   },
@@ -4420,7 +4420,7 @@ const directoryData = [
     "phone": 9004474593
   },
   {
-    "name": "escallator",
+    "name": "Escallator",
     "designation": "JE/EL",
     "phone": 7400408741
   },
@@ -4445,122 +4445,122 @@ const directoryData = [
     "phone": 7410105856
   },
   {
-    "name": "G.V. Mulye",
+    "name": "G V Mulye",
     "designation": "MCM",
     "phone": 7410105941
   },
   {
-    "name": "V.K. Nimkar",
+    "name": "V K Nimkar",
     "designation": "MCM",
     "phone": 7410106117
   },
   {
-    "name": "D.D. Jadhav",
+    "name": "D D Jadhav",
     "designation": "MCM",
     "phone": 7410106278
   },
   {
-    "name": "V.D. Mhade",
+    "name": "V D Mhade",
     "designation": "MCM",
     "phone": 7410107214
   },
   {
-    "name": "M.G. Shegale",
+    "name": "M G Shegale",
     "designation": "MCM",
     "phone": 7410107898
   },
   {
-    "name": "K.B. Jangam",
+    "name": "K B Jangam",
     "designation": "TEC/LI",
     "phone": 7410105144
   },
   {
-    "name": "P. P. Redkar",
+    "name": "P P Redkar",
     "designation": "TEC/LI",
     "phone": 7410108262
   },
   {
-    "name": "M.E. Tigade",
+    "name": "M E Tigade",
     "designation": "TEC/LI",
     "phone": 7410105558
   },
   {
-    "name": "L.S. Poskar",
+    "name": "L S Poskar",
     "designation": "TEC/LI",
     "phone": 7410105619
   },
   {
-    "name": "N.S. Mone",
+    "name": "N S Mone",
     "designation": "TEC/LI",
     "phone": 7410106309
   },
   {
-    "name": "S.N. Jangam",
+    "name": "S N Jangam",
     "designation": "TEC/LI",
     "phone": 7410107692
   },
   {
-    "name": "D.K. Kanekar",
+    "name": "D K Kanekar",
     "designation": "TEC/LI",
     "phone": 7410107919
   },
   {
-    "name": "G.K. Dalvi",
+    "name": "G K Dalvi",
     "designation": "TEC/LI",
     "phone": 7410107961
   },
   {
-    "name": "S.B. Surve",
+    "name": "S B Surve",
     "designation": "TEC/LII",
     "phone": 7410105174
   },
   {
-    "name": "S.N. Deshmukh",
+    "name": "S N Deshmukh",
     "designation": "TEC/LII",
     "phone": 7410106590
   },
   {
-    "name": "D.S. Tambe",
+    "name": "D S Tambe",
     "designation": "TEC/LII",
     "phone": 7410106760
   },
   {
-    "name": "S.A. Redij",
+    "name": "S A Redij",
     "designation": "TEC/LII",
     "phone": 7410107358
   },
   {
-    "name": "T.B. Khandare",
+    "name": "T B Khandare",
     "designation": "TEC/LII",
     "phone": 7410107370
   },
   {
-    "name": "M.M. Tirodkar",
+    "name": "M M Tirodkar",
     "designation": "TEC/LII",
     "phone": 7410107918
   },
   {
-    "name": "G.K. Kudalkar",
+    "name": "G K Kudalkar",
     "designation": "TEC/LII",
     "phone": 7410108044
   },
   {
-    "name": "S.S. Prabhu",
+    "name": "S S Prabhu",
     "designation": "TEC/LII",
     "phone": 7410108073
   },
   {
-    "name": "R.V. Pawar",
+    "name": "R V Pawar",
     "designation": "TEC/LIII",
     "phone": 7410105202
   },
   {
-    "name": "S.S. Khedekar",
+    "name": "S S Khedekar",
     "designation": "TEC/LIII",
     "phone": 7410105280
   },
   {
-    "name": "P.P. Tatkare",
+    "name": "P P Tatkare",
     "designation": "TEC/LIII",
     "phone": 7410105306
   },
@@ -4570,112 +4570,112 @@ const directoryData = [
     "phone": 7410105443
   },
   {
-    "name": "V.B. Gaikwad",
+    "name": "V B Gaikwad",
     "designation": "TEC/LIII",
     "phone": 7410105651
   },
   {
-    "name": "A.D. Shinde",
+    "name": "A D Shinde",
     "designation": "TEC/LIII",
     "phone": 7410105830
   },
   {
-    "name": "S.Y. Tambe",
+    "name": "S Y Tambe",
     "designation": "TEC/LIII",
     "phone": 7410105832
   },
   {
-    "name": "D.V. Tambitkar",
+    "name": "D V Tambitkar",
     "designation": "TEC/LIII",
     "phone": 7410105855
   },
   {
-    "name": "V.R. Malgunkar",
+    "name": "V R Malgunkar",
     "designation": "TEC/LIII",
     "phone": 7410105883
   },
   {
-    "name": "U.J. Panhalkar",
+    "name": "U J Panhalkar",
     "designation": "TEC/LIII",
     "phone": 7410106399
   },
   {
-    "name": "K.P. Nevrekar",
+    "name": "K P Nevrekar",
     "designation": "TEC/LIII",
     "phone": 7410106474
   },
   {
-    "name": "M.K. Gurav",
+    "name": "M K Gurav",
     "designation": "TEC/LIII",
     "phone": 7410106535
   },
   {
-    "name": "M.M. Pitre",
+    "name": "Manoj M Pitre",
     "designation": "TEC/LIII",
     "phone": 7410106618
   },
   {
-    "name": "G.C. Dongare",
+    "name": "Ganesh C Dongare",
     "designation": "TEC/LIIII",
     "phone": 7410106628
   },
   {
-    "name": "M.S. Juvekar",
+    "name": "Mandar S Juvekar",
     "designation": "TEC/LIII",
     "phone": 7410106663
   },
   {
-    "name": "Y.G. Sawant",
+    "name": "Y G Sawant",
     "designation": "TEC/LIII",
     "phone": 7410106717
   },
   {
-    "name": "S.N. Gawade",
+    "name": "S N Gawade",
     "designation": "TEC/LIII",
     "phone": 7410106750
   },
   {
-    "name": "Y.G. Bendre",
+    "name": "Y G Bendre",
     "designation": "TEC/LIII",
     "phone": 7410106774
   },
   {
-    "name": "A.N. Mahabale",
+    "name": "A N Mahabale",
     "designation": "TEC/LIII",
     "phone": 7410106838
   },
   {
-    "name": "S.S.Pawar",
+    "name": "S S Pawar",
     "designation": "TEC/LIII",
     "phone": 7410106922
   },
   {
-    "name": "Z.Y. Dhuri",
+    "name": "Z Y Dhuri",
     "designation": "TEC/LIII",
     "phone": 7410107401
   },
   {
-    "name": "T.L. Nagothkar",
+    "name": "T L Nagothkar",
     "designation": "TEC/LIII",
     "phone": 7410107667
   },
   {
-    "name": "M.B. Shinde",
+    "name": "M B Shinde",
     "designation": "TEC/LIII",
     "phone": 7410107668
   },
   {
-    "name": "N.K. Kashalikar",
+    "name": "N K Kashalikar",
     "designation": "TEC/LIII",
     "phone": 7410107825
   },
   {
-    "name": "S.T. Valanj",
+    "name": "S T Valanj",
     "designation": "TEC/LIII",
     "phone": 7410107844
   },
   {
-    "name": "S..K. Parab",
+    "name": "S K Parab",
     "designation": "TEC/LIII",
     "phone": 7410108396
   },
@@ -4685,24 +4685,19 @@ const directoryData = [
     "phone": 7400408346
   },
   {
-    "name": "Used In Control",
+    "name": "TVCR Karbude",
     "designation": "TVCR/Karbude",
     "phone": 9004474594
   },
   {
-    "name": "TVCR/Natuwadi",
+    "name": "TVCR Natuwadi",
     "designation": "TVCR/Natuwadi",
     "phone": 9004474595
   },
   {
-    "name": "TVCR/Parchuri",
+    "name": "TVCR Parchuri",
     "designation": "TVCR/Parchuri",
     "phone": 9004474596
-  },
-  {
-    "name": "Area RN",
-    "designation": NaN,
-    "phone": 7410106109
   },
   {
     "name": "R.I.Patil",
@@ -4830,7 +4825,7 @@ const directoryData = [
     "phone": 9004474621
   },
   {
-    "name": "R.T.Manjarelar",
+    "name": "R.T.Manjarekar",
     "designation": "SSE/P/SWV",
     "phone": 9004474639
   },
@@ -5555,12 +5550,12 @@ const directoryData = [
     "phone": 9226084139
   },
   {
-    "name": "Operator Used",
+    "name": "RMV/RN",
     "designation": "RMV/RN",
     "phone": 9004474632
   },
   {
-    "name": "N D Patil",
+    "name": "RMV/CHI",
     "designation": "RMV/CHI",
     "phone": 9004474644
   },
@@ -5575,7 +5570,7 @@ const directoryData = [
     "phone": 9004474643
   },
   {
-    "name": "RMV/MNI",
+    "name": "RMV/KUDL",
     "designation": "RMV/KUDL",
     "phone": 9004474668
   },
@@ -5666,7 +5661,7 @@ const directoryData = [
   },
   {
     "name": "T.Kumaran",
-    "designation": "RME",
+    "designation": "RME/RN",
     "phone": 9004474404
   },
   {
@@ -5776,17 +5771,17 @@ const directoryData = [
   },
   {
     "name": "P Y Kubal",
-    "designation": "Crew./Mgr",
+    "designation": "CREW MGR/VEN",
     "phone": 8010903410
   },
   {
     "name": "S B Kamble",
-    "designation": "Crew./Mgr",
+    "designation": "CREW MGR/RN",
     "phone": 8010903416
   },
   {
     "name": "K V Mandavkar",
-    "designation": "Crew./Mgr",
+    "designation": "CREW MGR/RN",
     "phone": 8010903417
   },
   {

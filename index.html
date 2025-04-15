@@ -155,10 +155,9 @@
 
   <script src="data.js"></script>
   <script>
+    // No rendering on load
     document.addEventListener("DOMContentLoaded", () => {
-      if (window.directoryData && directoryData.length > 0) {
-        render(directoryData);
-      }
+      document.getElementById("directory").innerHTML = "";
     });
 
     function render(data) {
@@ -181,7 +180,7 @@
       const query = document.getElementById("search").value.toLowerCase();
 
       if (!window.directoryData || query === "") {
-        render(directoryData);
+        document.getElementById("directory").innerHTML = "";
         return;
       }
 

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mobile Directory (CUG)</title>
   <link rel="icon" type="image/png" href="favicon.png">
-<style>
+  <style>
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
@@ -17,7 +17,6 @@
       min-height: 100vh;
     }
 
-    /* Logo styling */
     .logo {
       text-align: center;
       margin-bottom: 10px;
@@ -96,6 +95,7 @@
     .card p {
       font-size: 14px;
       color: #555;
+      margin: 4px 0;
     }
 
     .actions {
@@ -116,7 +116,6 @@
       color: #fff;
     }
 
-    /* Footer */
     footer {
       margin-top: auto;
       text-align: center;
@@ -125,11 +124,10 @@
       font-size: 14px;
     }
 
-    /* Mobile responsiveness */
     @media (max-width: 600px) {
       #directory {
         flex-direction: column;
-        align-items: center; /* Center on mobile */
+        align-items: center;
       }
 
       input {
@@ -139,22 +137,18 @@
   </style>
 </head>
 <body>
-  <!-- Logo section -->
   <div class="logo">
     <img src="logo.png" alt="Logo" />
   </div>
 
   <h1>Mobile Directory (CUG)</h1>
 
-  <!-- Search input -->
   <div class="search-container">
-    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." />
+    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." aria-label="Search directory" />
   </div>
 
-  <!-- Search results -->
   <div id="directory"></div>
 
-  <!-- Footer -->
   <footer>
     Created by Sajeesh P
   </footer>
@@ -162,8 +156,9 @@
   <script src="data.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-  // Nothing to render on load
-});
+      // Nothing to render initially
+    });
+
     function render(data) {
       const container = document.getElementById("directory");
       container.innerHTML = data.length === 0
@@ -174,29 +169,28 @@
             <p>${p.designation}</p>
             <p>${p.phone}</p>
             <div class="actions">
-              <a href="tel:${p.phone}">Call</a>
+              ${!p.isHod ? `<a href="tel:${p.phone}">Call</a>` : ""}
             </div>
           </div>
         `).join('');
     }
 
     function searchDirectory() {
-  const query = document.getElementById("search").value.toLowerCase();
+      const query = document.getElementById("search").value.toLowerCase();
 
-  if (query === "") {
-    document.getElementById("directory").innerHTML = ""; // Empty if no input
-    return;
-  }
+      if (!window.directoryData || query === "") {
+        document.getElementById("directory").innerHTML = "";
+        return;
+      }
 
-  const filtered = directoryData.filter(p =>
-    Object.values(p).some(val =>
-      String(val).toLowerCase().includes(query)
-    )
-  );
+      const filtered = directoryData.filter(p =>
+        Object.values(p).some(val =>
+          String(val).toLowerCase().includes(query)
+        )
+      );
 
-  render(filtered);
-}
-
+      render(filtered);
+    }
   </script>
 </body>
 </html>

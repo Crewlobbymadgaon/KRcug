@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Directory (CUG)</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f4f4f9;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Logo styling */
+    .logo {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .logo img {
+      max-width: 100px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    .search-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    input {
+      width: 100%;
+      max-width: 500px;
+      padding: 15px;
+      border-radius: 25px;
+      font-size: 18px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-color: #fff;
+      color: #333;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      border-color: #007bff;
+      outline: none;
+      background-color: #e6f0ff;
+    }
+
+    input::placeholder {
+      color: #888;
+    }
+
+    #directory {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 250px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .actions {
+      margin-top: 10px;
+    }
+
+    .actions a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+      padding: 5px 10px;
+      border: 1px solid #007bff;
+      border-radius: 5px;
+    }
+
+    .actions a:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: auto;
+      text-align: center;
+      padding: 15px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 600px) {
+      #directory {
+        flex-direction: column;
+        align-items: center; /* Center on mobile */
+      }
+
+      input {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo section -->
+  <div class="logo">
+    <img src="logo.png" alt="Logo" />
+  </div>
+
+  <h1>Mobile Directory (CUG)</h1>
+
+  <!-- Search input -->
+  <div class="search-container">
+    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." />
+  </div>
+
+  <!-- Search results -->
+  <div id="directory"></div>
+
+  <!-- Footer -->
+  <footer>
+    Created by Sajeesh P
+  </footer>
+
+  <script src="data.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+  // Nothing to render on load
+});
+    function render(data) {
+      const container = document.getElementById("directory");
+      container.innerHTML = data.length === 0
+        ? "<p style='text-align:center;'>No contacts found. Try searching!</p>"
+        : data.map(p => `
+          <div class="card">
+            <h3>${p.name}</h3>
+            <p>${p.designation}</p>
+            <p>${p.phone}</p>
+            <div class="actions">
+              <a href="tel:${p.phone}">Call</a>
+            </div>
+          </div>
+        `).join('');
+    }
+
+    function searchDirectory() {
+  const query = document.getElementById("search").value.toLowerCase();
+
+  if (query === "") {
+    document.getElementById("directory").innerHTML = ""; // Empty if no input
+    return;
+  }
+
+  const filtered = directoryData.filter(p =>
+    Object.values(p).some(val =>
+      String(val).toLowerCase().includes(query)
+    )
+  );
+
+  render(filtered);
+}
+
+  </script>
+</body>
+</html>

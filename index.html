@@ -165,20 +165,28 @@
   // Nothing to render on load
 });
     function render(data) {
-      const container = document.getElementById("directory");
-      container.innerHTML = data.length === 0
-        ? "<p style='text-align:center;'>No contacts found. Try searching!</p>"
-        : data.map(p => `
-          <div class="card">
-            <h3>${p.name}</h3>
-            <p>${p.designation}</p>
-            <p>${p.phone}</p>
-            <div class="actions">
-              <a href="tel:${p.phone}">Call</a>
-            </div>
-          </div>
-        `).join('');
-    }
+  const container = document.getElementById("directory");
+  container.innerHTML = "";
+
+  if (data.length === 0) {
+    container.innerHTML = "<p>No matching records found.</p>";
+    return;
+  }
+
+  data.forEach(person => {
+    const isHOD = person.isHOD === true;
+
+    container.innerHTML += `
+      <div class="card">
+        <h3>${person.name}</h3>
+        <div class="contact">Designation: ${person.designation}</div>
+        <div class="contact">Phone: ${person.phone}</div>
+        <div class="actions">
+  ${!isHOD ? `<a href="tel:${person.phone}">Call</a>` : ""}
+</div>
+      </div>`;
+  });
+}
 
     function searchDirectory() {
   const query = document.getElementById("search").value.toLowerCase();

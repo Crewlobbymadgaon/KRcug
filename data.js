@@ -2,22 +2,22 @@ const directoryData = [
   {
     "name": "Santosh Kumar Jha",
     "designation": "CMD",
-    "phone": 9004447000
+    "phone": 9004447000, isHOD: true
   },
   {
     "name": "R M Bhadang",
     "designation": "DIR(F)",
-    "phone": 9004447009
+    "phone": 9004447009, isHOD: true
   },
   {
     "name": "Santosh Kumar Jha",
     "designation": "DIR(O&C)/Additional Charges",
-    "phone": 9004447001
+    "phone": 9004447001, isHOD: true
   },
   {
     "name": "R K Hegde",
     "designation": "DIR( W&W )",
-    "phone": 9004447002
+    "phone": 9004447002, isHOD: true
   },
   {
     "name": "Sushant Kumar Bala",

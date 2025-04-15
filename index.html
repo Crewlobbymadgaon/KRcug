@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mobile Directory (CUG)</title>
   <link rel="icon" type="image/png" href="favicon.png">
-<style>
+  <style>
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
@@ -17,7 +17,6 @@
       min-height: 100vh;
     }
 
-    /* Logo styling */
     .logo {
       text-align: center;
       margin-bottom: 10px;
@@ -51,6 +50,8 @@
       background-color: #fff;
       color: #333;
       transition: all 0.3s ease;
+      position: relative;
+      z-index: 1;
     }
 
     input:focus {
@@ -116,7 +117,6 @@
       color: #fff;
     }
 
-    /* Footer */
     footer {
       margin-top: auto;
       text-align: center;
@@ -125,11 +125,10 @@
       font-size: 14px;
     }
 
-    /* Mobile responsiveness */
     @media (max-width: 600px) {
       #directory {
         flex-direction: column;
-        align-items: center; /* Center on mobile */
+        align-items: center;
       }
 
       input {
@@ -139,22 +138,18 @@
   </style>
 </head>
 <body>
-  <!-- Logo section -->
   <div class="logo">
     <img src="logo.png" alt="Logo" />
   </div>
 
   <h1>Mobile Directory (CUG)</h1>
 
-  <!-- Search input -->
   <div class="search-container">
-    <input type="text" id="search" placeholder="Search by name or designation..." oninput="searchDirectory()" autocomplete="off" autocorrect="off" spellcheck="false" style="position: relative; z-index: 1;" />
+    <input type="text" id="search" placeholder="Search by name or designation..." oninput="searchDirectory()" autocomplete="off" autocorrect="off" spellcheck="false" />
   </div>
 
-  <!-- Search results -->
   <div id="directory"></div>
 
-  <!-- Footer -->
   <footer>
     Created by Sajeesh P
   </footer>
@@ -162,49 +157,51 @@
   <script src="data.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
-  // Nothing to render on load
-});
+      if (typeof directoryData !== "undefined") {
+        render(directoryData);
+      }
+    });
+
     function render(data) {
-  const container = document.getElementById("directory");
-  container.innerHTML = "";
+      const container = document.getElementById("directory");
+      container.innerHTML = "";
 
-  if (data.length === 0) {
-    container.innerHTML = "<p>No matching records found.</p>";
-    return;
-  }
+      if (data.length === 0) {
+        container.innerHTML = "<p>No matching records found.</p>";
+        return;
+      }
 
-  data.forEach(person => {
-    const isHOD = person.isHOD === true;
+      data.forEach(person => {
+        const isHOD = person.isHOD === true;
 
-    container.innerHTML += `
-      <div class="card">
-        <h3>${person.name}</h3>
-        <div class="contact">Designation: ${person.designation}</div>
-        <div class="contact">Phone: ${person.phone}</div>
-        <div class="actions">
-  ${!isHOD ? `<a href="tel:${person.phone}">Call</a>` : ""}
-</div>
-      </div>`;
-  });
-}
+        container.innerHTML += `
+          <div class="card">
+            <h3>${person.name}</h3>
+            <div class="contact">Designation: ${person.designation}</div>
+            <div class="contact">Phone: ${person.phone}</div>
+            <div class="actions">
+              ${!isHOD ? `<a href="tel:${person.phone}">Call</a>` : ""}
+            </div>
+          </div>`;
+      });
+    }
 
     function searchDirectory() {
-  const query = document.getElementById("search").value.toLowerCase();
+      const query = document.getElementById("search").value.toLowerCase();
 
-  if (query === "") {
-    document.getElementById("directory").innerHTML = ""; // Empty if no input
-    return;
-  }
+      if (query === "") {
+        render(directoryData);
+        return;
+      }
 
-  const filtered = directoryData.filter(p =>
-    Object.values(p).some(val =>
-      String(val).toLowerCase().includes(query)
-    )
-  );
+      const filtered = directoryData.filter(p =>
+        Object.values(p).some(val =>
+          val && String(val).toLowerCase().includes(query)
+        )
+      );
 
-  render(filtered);
-}
-
+      render(filtered);
+    }
   </script>
 </body>
 </html>

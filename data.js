@@ -2015,7 +2015,7 @@ const directoryData = [
     "phone": 9686685316
   },
   {
-    "name": "U. Raju",
+    "name": "U Raju",
     "designation": "INST/KRA/BTJL",
     "phone": 7483804195
   },
@@ -2275,7 +2275,7 @@ const directoryData = [
     "phone": 8310138208
   },
   {
-    "name": "Thyagaraj Babu P.S",
+    "name": "Thyagaraj Babu P S",
     "designation": "HEAD TE/MAQ",
     "phone": 8310138237
   },
@@ -2895,7 +2895,7 @@ const directoryData = [
     "phone": 9686656121
   },
   {
-    "name": "Ganapati Dewadiga",
+    "name": "Ganapati Devadiga",
     "designation": "MPHW/KW",
     "phone": 9686656122
   },
@@ -2930,7 +2930,7 @@ const directoryData = [
     "phone": 9686683933
   },
   {
-    "name": "Vinod Z Thomas",
+    "name": "Vinod Thomas",
     "designation": "SSE/S&T/BTJL",
     "phone": 9686683934
   },
@@ -2981,7 +2981,7 @@ const directoryData = [
   },
   {
     "name": "M K Sureshan",
-    "designation": "SSE/S&T/SL",
+    "designation": "SSE/S&T/MAO",
     "phone": 9686683944
   },
   {
@@ -3150,7 +3150,7 @@ const directoryData = [
     "phone": 7619122031
   },
   {
-    "name": " S.Vasu",
+    "name": " S Vasu",
     "designation": "JR.OA/S&T/UD",
     "phone": 9686656212
   },
@@ -3180,7 +3180,7 @@ const directoryData = [
     "phone": 9686688728
   },
   {
-    "name": "M.H.Kadam",
+    "name": "M H Kadam",
     "designation": "MCM/ESTM/LR/UD",
     "phone": 8310137827
   },
@@ -3190,7 +3190,7 @@ const directoryData = [
     "phone": 9686683949
   },
   {
-    "name": "B.P Naveen Chandra",
+    "name": "B P Naveen Chandra",
     "designation": "MCM/ESTM/RM/SL",
     "phone": 7619122025
   },
@@ -3300,7 +3300,7 @@ const directoryData = [
     "phone": 7483804192
   },
   {
-    "name": "B.S. Nadage",
+    "name": "B S Nadage",
     "designation": "Sr.REN/KW",
     "phone": 9686656203
   },
@@ -3420,7 +3420,7 @@ const directoryData = [
     "phone": 9686656270
   },
   {
-    "name": "J.S.Hegde",
+    "name": "J S Hegde",
     "designation": "JE/USFDKAWR",
     "phone": 9686656251
   },
@@ -3870,7 +3870,7 @@ const directoryData = [
     "phone": 9663467992
   },
   {
-    "name": "Saanu konnoth",
+    "name": "Saanu Kunnoth",
     "designation": "LPP/MAO",
     "phone": 9004476729
   },
@@ -3893,11 +3893,6 @@ const directoryData = [
     "name": "Raghavendra",
     "designation": "LPG/SL",
     "phone": 7624978574
-  },
-  {
-    "name": "Ramakrishna",
-    "designation": "LPG/SL",
-    "phone": 7624978575
   },
   {
     "name": "Bhaskar K Poojary",
@@ -3985,7 +3980,7 @@ const directoryData = [
     "phone": 9686683924
   },
   {
-    "name": "S Rajesh",
+    "name": "Rajesh Shetty",
     "designation": "SR AS/UD ",
     "phone": 9686683926
   },
@@ -4033,11 +4028,6 @@ const directoryData = [
     "name": "Adisha Chenna",
     "designation": "GTM/SL",
     "phone": 7624978594
-  },
-  {
-    "name": "Shiva I M",
-    "designation": "GTM/SL",
-    "phone": 7624978595
   },
   {
     "name": "Suresh Kumar",

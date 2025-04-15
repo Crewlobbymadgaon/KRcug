@@ -5791,142 +5791,137 @@ const directoryData = [
   },
   {
     "name": "Raviranjan",
-    "designation": "LI/RN",
+    "designation": "CLI/RN",
     "phone": 9004474812
   },
   {
     "name": "Y.N.Kale",
-    "designation": "LI/RN",
+    "designation": "CLI/RN",
     "phone": 9004474886
   },
   {
-    "name": "Ravinjanan(Rcd Chi)",
+    "name": "Ravinjanan(RCD CHI)",
     "designation": "LI",
     "phone": 7410057660
   },
   {
     "name": "S.T.Parbalkar",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474840
   },
   {
     "name": "R.K.Sakpal",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474837
   },
   {
     "name": "J.L.Jagtap",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474820
   },
   {
     "name": "S.H.Ghadge",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474834
   },
   {
     "name": "A.S.More",
-    "designation": "LP",
+    "designation": "CREW MGR/RN",
     "phone": 9004474816
   },
   {
     "name": "S.S.Katke",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474855
   },
   {
     "name": "S.K.Raut",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474836
   },
   {
     "name": "R.P.Dhamange",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474848
   },
   {
     "name": "R.K.Shingole",
-    "designation": "CLI",
+    "designation": "CLI/RN",
     "phone": 9004474835
   },
   {
     "name": "Amol Bendre",
-    "designation": "LP",
+    "designation": "ALP/RN",
     "phone": 9004474832
   },
   {
-    "name": "S.P.Salvi",
-    "designation": "LP",
+    "name": "Sachin.P.Salvi",
+    "designation": "LPG/RN",
     "phone": 9004474849
   },
   {
-    "name": "Durgesh C.",
-    "designation": "LP",
+    "name": "Durgesh Chandra.",
+    "designation": "LPP/RN",
     "phone": 9004474842
   },
   {
     "name": "G.S.Narkar",
-    "designation": "LP",
+    "designation": "CREW MGR/RN",
     "phone": 9004474852
   },
   {
     "name": "Rajbahadur",
-    "designation": "LP",
+    "designation": "CLI/NEPAL",
     "phone": 9004474847
   },
   {
     "name": "D.P.Shingare",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474819
   },
   {
     "name": "O.M.Mathapati",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474823
   },
   {
     "name": "V.B.Kamble",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474839
   },
   {
     "name": "R.K.Date",
-    "designation": "LP",
+    "designation": "CREW MGR/RN",
     "phone": 9004474827
   },
   {
     "name": "Priya Tetgure",
-    "designation": "LP",
+    "designation": "ALP/RN",
     "phone": 9004474851
   },
   {
-    "name": "Keer",
-    "designation": "LP",
+    "name": "Sunil Keer",
+    "designation": "LPG/RN",
     "phone": 9004474828
   },
   {
     "name": "S.M.Akerkar",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474824
   },
   {
-    "name": "Jagdish Sonawane",
-    "designation": "LP",
-    "phone": 9004474854
-  },
-  {
     "name": "S.D.Ghole",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474830
   },
   {
     "name": "Sachin Jadhav",
-    "designation": "LP",
+    "designation": "ALP/RN",
     "phone": 9004474825
   },
   {
     "name": "U.V.Patil",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 9004474838
   },
   {
@@ -5935,218 +5930,208 @@ const directoryData = [
     "phone": 9004474817
   },
   {
-    "name": "A Sawant",
-    "designation": "LP",
+    "name": "Amit Sawant",
+    "designation": "LPM/RN",
     "phone": 9004474829
   },
   {
     "name": "M D Jangam",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 8010903411
   },
   {
     "name": "A V Adhav",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 8010903412
   },
   {
     "name": "S P Bansod",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 8010903413
   },
   {
     "name": "S S Katke",
-    "designation": "LP",
+    "designation": "LPM/RN",
     "phone": 8010903414
   },
   {
     "name": "R.P.Nandurkar",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474853
   },
   {
     "name": "Jagdish Sonawane",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474845
   },
   {
     "name": "Pendhari",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474846
   },
   {
     "name": "R.V.Puranik",
-    "designation": "LPG",
+    "designation": "LPM/RN",
     "phone": 9004474844
   },
   {
     "name": "P.T.Malgunkar",
-    "designation": "LPG",
+    "designation": "LPM/RN",
     "phone": 9004474841
   },
   {
-    "name": "P.Y.Kubal",
-    "designation": "LPG",
-    "phone": 9004478957
-  },
-  {
-    "name": "S.R.Mulla",
-    "designation": "LPG",
+    "name": "Sikhandar R Mulla",
+    "designation": "LPG/RN",
     "phone": 9004478959
   },
   {
     "name": "P.K.Sawant",
-    "designation": "LPG",
+    "designation": "LPP/RN",
     "phone": 9004478955
   },
   {
     "name": "P.T.Mhade",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004478962
   },
   {
     "name": "K.D.Korgonkar",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004478954
   },
   {
     "name": "S.S.Divekar",
-    "designation": "LPG",
+    "designation": "CLI/RN",
     "phone": 9004478967
   },
   {
     "name": "V.V.Tambe",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004478966
   },
   {
     "name": "S.S.Pawar",
-    "designation": "LPG",
+    "designation": "CLI/RN",
     "phone": 9004478960
   },
   {
     "name": "Sajan Pawar",
-    "designation": "LPG",
+    "designation": "RR INCHRG/RN",
     "phone": 9004478952
   },
   {
     "name": "J.S.Sonavane",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004478956
   },
   {
-    "name": "P.M.Chauthe",
-    "designation": "LPG",
+    "name": "Pramod.M.Chauthe",
+    "designation": "LPG/RN",
     "phone": 9004478953
   },
   {
     "name": "V.M.Pawar",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004478958
   },
   {
-    "name": "H.V.Narvekar",
-    "designation": "LPG",
+    "name": "Hemant.V.Narvekar",
+    "designation": "LPG/RN",
     "phone": 9004478965
   },
   {
     "name": "A.V.Naik",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004478961
   },
   {
     "name": "S.K.Yadav",
-    "designation": "LPG",
+    "designation": "PRC/BEL",
     "phone": 9004478963
   },
   {
-    "name": "V.B.Jadhav",
-    "designation": "LPG",
-    "phone": 9004478968
-  },
-  {
-    "name": "A.Saigaonkar",
-    "designation": "LPG",
+    "name": "Akash Saigaonkar",
+    "designation": "LPP/RN",
     "phone": 9004474862
   },
   {
     "name": "S H Nirmal",
-    "designation": "LPG",
+    "designation": "CREW MGR/RN",
     "phone": 9004474865
   },
   {
     "name": "J S Kadu",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474867
   },
   {
     "name": "G S Javarat",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474870
   },
   {
     "name": "J.B.Bhuran",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474861
   },
   {
     "name": "S S Patil",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474864
   },
   {
-    "name": "M.A.Kadam",
-    "designation": "LPG",
+    "name": "Makarand A Kadam",
+    "designation": "LPG/RN",
     "phone": 9004474868
   },
   {
     "name": "S.R.Mhapralkar",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474863
   },
   {
     "name": "S N Gholap",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474869
   },
   {
     "name": "S D Pawaskar",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474866
   },
   {
     "name": "V.S.Kokaje",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474419
   },
   {
     "name": "K.K.Kamble",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474417
   },
   {
     "name": "S.G.Gawade",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474414
   },
   {
     "name": "A.I.Mirkar",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474416
   },
   {
     "name": "R.S.Rane",
-    "designation": "LPG",
+    "designation": "LPG/RN",
     "phone": 9004474415
   },
   {
     "name": "U.P.Jadhav",
-    "designation": "ALP",
+    "designation": "ALP/RN",
     "phone": 7400408101
   },
   {
     "name": "Pankaj Bhole",
-    "designation": "ALP",
+    "designation": "ALP/RN",
     "phone": 7400408149
   },
   {

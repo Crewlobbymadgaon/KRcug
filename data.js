@@ -22,12 +22,12 @@ const directoryData = [
   {
     "name": "Sushant Kumar Bala",
     "designation": "DGM( Operation & Safety ) to CMD",
-    "phone": 9004470384
+    "phone": 9004470384, isHOD: true
   },
   {
     "name": "Sheetal Sharma",
     "designation": "Sr.ADGM(Co-ordination to CMD)",
-    "phone": 9004470392
+    "phone": 9004470392, isHOD: true
   },
   {
     "name": "Vaidehi R Nanivadekar",
@@ -132,7 +132,7 @@ const directoryData = [
   {
     "name": "Chitrasen P",
     "designation": "DGM (ADMIN)",
-    "phone": 9004447005
+    "phone": 9004447005, isHOD: true
   },
   {
     "name": "Sunil M Kamble",
@@ -152,7 +152,7 @@ const directoryData = [
   {
     "name": "Girish R Karandikar",
     "designation": "CPRO",
-    "phone": 9004470387
+    "phone": 9004470387, isHOD: true
   },
   {
     "name": "Melita Barretto",
@@ -172,12 +172,12 @@ const directoryData = [
   {
     "name": "Ranjit Singh Manhas",
     "designation": "PVC",
-    "phone": 9004470736
+    "phone": 9004470736, isHOD: true
   },
   {
     "name": "Vaishali Patange",
     "designation": "DGM(TRG)",
-    "phone": 9004470461
+    "phone": 9004470461, isHOD: true
   },
   {
     "name": "Deepak K Kudalkar",
@@ -262,91 +262,91 @@ const directoryData = [
   {
     "name": "Mathew Philip",
     "designation": "ED (FA)",
-    "phone": 9004470310
+    "phone": 9004470310, isHOD: true
   },
   {
     "name": "Debasish Mitra",
     "designation": "GM/Finance",
-    "phone": 9004470312
+    "phone": 9004470312, isHOD: true
   },
   {
     "name": "Vinayak P Salvi",
-    "designation": "Dy .FA&CAO (ACC)",
-    "phone": 9004470412
+    "designation": "Dy FA&CAO (ACC)",
+    "phone": 9004470412, isHOD: true
   },
   {
     "name": "Arup Bagui",
-    "designation": "DyFA&CAO (TAX &ESTB)",
-    "phone": 9004470313
+    "designation": "Dy FA&CAO (TAX &ESTB)",
+    "phone": 9004470313, isHOD: true
   },
   {
     "name": "Manoj Panda",
-    "designation": "DyFA&CAO (F&TRAFFIC)",
-    "phone": 9004470315
+    "designation": "Dy FA&CAO(F&TRAFFIC)",
+    "phone": 9004470315, isHOD: true
   },
   {
     "name": "Brajesh Kumar",
     "designation": "Sr.AFA/Project",
-    "phone": 9004470317
+    "phone": 9004470317, isHOD: true
   },
   {
     "name": "Manguesh Kumar Achari",
     "designation": "Sr.AFA/BILLs",
-    "phone": 9004470316
+    "phone": 9004470316, isHOD: true
   },
   {
     "name": "S Shankarnarayan",
     "designation": "Sr.AFA/T",
-    "phone": 9004470415
+    "phone": 9004470415, isHOD: true
   },
   {
     "name": "Akshaya Atul Mapara",
     "designation": "Sr.AFA/F",
-    "phone": 9004470609
+    "phone": 9004470609, isHOD: true
   },
   {
     "name": "Vandana Ulhas Karve",
     "designation": "AAO/ESTB",
-    "phone": 9004470514
+    "phone": 9004470514, isHOD: true
   },
   {
     "name": "Kunal Agrawal",
     "designation": "AAO/Book",
-    "phone": 9004470414
+    "phone": 9004470414, isHOD: true
   },
   {
     "name": "Nisha D'Souza",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470612
   },
   {
     "name": "Shailaja N Kunder",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470607
   },
   {
     "name": "S S Raut",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470516
   },
   {
     "name": "Ayub M Kadrekar",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470513
   },
   {
     "name": "Vidula S Mane",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470413
   },
   {
     "name": "Subhash Vitthal Kase",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470613
   },
   {
     "name": "P G Patil",
-    "designation": "Sr. SO",
+    "designation": "Sr.SO",
     "phone": 9004470611
   },
   {
@@ -356,12 +356,12 @@ const directoryData = [
   },
   {
     "name": "Anant R Rovalekar",
-    "designation": "Sr. AA",
+    "designation": "Sr.AA",
     "phone": 9004470610
   },
   {
     "name": "Goutami M Dhotre",
-    "designation": "Sr. AA",
+    "designation": "Sr.AA",
     "phone": 9004470511
   },
   {
@@ -392,27 +392,27 @@ const directoryData = [
   {
     "name": "Ashutosh Shrivastava",
     "designation": "CCM",
-    "phone": 9004470391
+    "phone": 9004470391, isHOD: true
   },
   {
     "name": "Dinesh G Bonde",
     "designation": "DyCCM",
-    "phone": 9004470394
+    "phone": 9004470394, isHOD: true
   },
   {
     "name": "Sunil Narkar",
     "designation": "DyCCM",
-    "phone": 9004470393
+    "phone": 9004470393, isHOD: true
   },
   {
     "name": "Rajendra D Gholap",
     "designation": "DyCCM",
-    "phone": 9004470494
+    "phone": 9004470494, isHOD: true
   },
   {
     "name": "Leora D'cunha",
     "designation": "ACM",
-    "phone": 9004470489
+    "phone": 9004470489, isHOD: true
   },
   {
     "name": "Rajesh M Desai",
@@ -451,7 +451,7 @@ const directoryData = [
   },
   {
     "name": "Ramesh G Mundekar",
-    "designation": "Head TTE",
+    "designation": "Head TE",
     "phone": 9004470591
   },
   {
@@ -507,57 +507,57 @@ const directoryData = [
   {
     "name": "Satyendra K Shukla",
     "designation": "ED( Business & Operations)",
-    "phone": 9004470340
+    "phone": 9004470340, isHOD: true
   },
   {
     "name": "Krishna Lambani",
     "designation": "CPM",
-    "phone": 9004470342
+    "phone": 9004470342, isHOD: true
   },
   {
     "name": "P K Kurade",
     "designation": "CPM",
-    "phone": 9004470441
+    "phone": 9004470441, isHOD: true
   },
   {
     "name": "G K Lakhera",
-    "designation": "DYCEE/Hubali",
-    "phone": 7400408742
+    "designation": "Dy CEE/Hubali",
+    "phone": 7400408742, isHOD: true
   },
   {
     "name": "Om Prakash Verma",
     "designation": "AEE/HQ",
-    "phone": 9004470542
+    "phone": 9004470542, isHOD: true
   },
   {
     "name": "Abhishek Kumar",
     "designation": "SEE",
-    "phone": 9004470442
+    "phone": 9004470442, isHOD: true
   },
   {
     "name": "Rajat Sinha",
     "designation": "SEE /PROJ",
-    "phone": 9004470443
+    "phone": 9004470443, isHOD: true
   },
   {
     "name": "Vishal Kumar",
     "designation": "SEE",
-    "phone": 9004470343
+    "phone": 9004470343, isHOD: true
   },
   {
     "name": "J F Mandumpala",
     "designation": "SEE/E.M.",
-    "phone": 9004470545
+    "phone": 9004470545, isHOD: true
   },
   {
     "name": "Arun Sudam Rodekar",
     "designation": "SSE/EL/HQ",
-    "phone": 9004470541
+    "phone": 9004470541, isHOD: true
   },
   {
     "name": "Abhijit B Rawool",
     "designation": "SSE/EL/Maint.",
-    "phone": 9004470544
+    "phone": 9004470544, isHOD: true
   },
   {
     "name": "Omkar Bagatkar",
@@ -682,37 +682,37 @@ const directoryData = [
   {
     "name": "Nagadath R Rao",
     "designation": "PCE",
-    "phone": 9004470320
+    "phone": 9004470320, isHOD: true
   },
   {
     "name": "Sudhir Kulkarni",
-    "designation": "DyCE/HQ",
-    "phone": 9004470321
+    "designation": "Dy CE/HQ",
+    "phone": 9004470321, isHOD: true
   },
   {
     "name": "P G R Nair",
     "designation": "DYCE/Bridge",
-    "phone": 9004470324
+    "phone": 9004470324, isHOD: true
   },
   {
     "name": "Uday Bhaskar",
     "designation": "Dy.CE/T",
-    "phone": 9004470326
+    "phone": 9004470326, isHOD: true
   },
   {
     "name": "Uday Walvalkar",
-    "designation": "EA/Tech /Dir W&W",
-    "phone": 9004470456
+    "designation": "EA/Tech/Dir W&W",
+    "phone": 9004470456, isHOD: true
   },
   {
     "name": "Ibrahim Mohammed",
     "designation": "AEN/W",
-    "phone": 9004470323
+    "phone": 9004470323, isHOD: true
   },
   {
     "name": "Seema G",
     "designation": "AEN/TR",
-    "phone": 9004470521
+    "phone": 9004470521, isHOD: true
   },
   {
     "name": "Sanjay D Phatkare",
@@ -776,12 +776,12 @@ const directoryData = [
   },
   {
     "name": "P M Kadam",
-    "designation": "Technician /W",
+    "designation": "Technician/W",
     "phone": 9004470726
   },
   {
     "name": "Jayant Shinde",
-    "designation": "Technician /KRV",
+    "designation": "Technician/KRV",
     "phone": 9004470524
   },
   {
@@ -817,52 +817,52 @@ const directoryData = [
   {
     "name": "T K Dineshkumar",
     "designation": "ED/PROJECTS",
-    "phone": 9004470422
+    "phone": 9004470422, isHOD: true
   },
   {
     "name": "Rajesh K",
     "designation": "CPM/INFA",
-    "phone": 9004470485
+    "phone": 9004470485, isHOD: true
   },
   {
     "name": "Vishal Bhatti",
     "designation": "ADD.CPM/FAB/INSP",
-    "phone": 9004470457
+    "phone": 9004470457, isHOD: true
   },
   {
     "name": "Manoj C Baddkar",
     "designation": "ADD.CPM",
-    "phone": 9004470424
+    "phone": 9004470424, isHOD: true
   },
   {
     "name": "Birendra Kumar",
     "designation": "DYCE/TVC",
-    "phone": 9004470488
+    "phone": 9004470488, isHOD: true
   },
   {
     "name": "T Subramanyam",
     "designation": "DYCE",
-    "phone": 9004470459
+    "phone": 9004470459, isHOD: true
   },
   {
     "name": "H K Bhagawan",
     "designation": "DGM/Khurda-Bolangir Proj",
-    "phone": 9004470498
+    "phone": 9004470498, isHOD: true
   },
   {
     "name": "S R Patil",
     "designation": "AEN/DL/MNI",
-    "phone": 9004470458
+    "phone": 9004470458, isHOD: true
   },
   {
     "name": "Anirudha Sahu",
     "designation": "AEN/P",
-    "phone": 9004470487
+    "phone": 9004470487, isHOD: true
   },
   {
     "name": "Deepak Sande",
     "designation": "AEN/VTCL/BLP",
-    "phone": 9004470483
+    "phone": 9004470483, isHOD: true
   },
   {
     "name": "Maru Murlidhar",
@@ -902,27 +902,27 @@ const directoryData = [
   {
     "name": "Bindu Muralidharan",
     "designation": "ED(IT)",
-    "phone": 9004470335
+    "phone": 9004470335, isHOD: true
   },
   {
     "name": "Sunil Rathod",
-    "designation": "Dy.CMIT",
-    "phone": 9004470436
+    "designation": "Dy CMIT",
+    "phone": 9004470436, isHOD: true
   },
   {
     "name": "Yogesh Kurkure",
-    "designation": "Dy.CMIT(HQ)",
-    "phone": 9004470338
+    "designation": "Dy CMIT(HQ)",
+    "phone": 9004470338, isHOD: true
   },
   {
     "name": "Mallika M",
     "designation": "AMIT/I",
-    "phone": 9004470622
+    "phone": 9004470622, isHOD: true
   },
   {
     "name": "Pooja Khekare",
     "designation": "AMIT/S",
-    "phone": 9004470623
+    "phone": 9004470623, isHOD: true
   },
   {
     "name": "Mabel D'souza",
@@ -941,17 +941,17 @@ const directoryData = [
   },
   {
     "name": "Nevile Monterio",
-    "designation": "Sr. SP/IT",
+    "designation": "Sr.SP/IT",
     "phone": 9004470626
   },
   {
     "name": "Santosh Mane",
-    "designation": "Sr. SP/IT",
+    "designation": "Sr.SP/IT",
     "phone": 9004470627
   },
   {
     "name": "Dilip Choudhary",
-    "designation": "Sr. SP/IT",
+    "designation": "Sr.SP/IT",
     "phone": 9004470629
   },
   {
@@ -1051,38 +1051,38 @@ const directoryData = [
   },
   {
     "name": "IT Control",
-    "designation": "CONTROLLER",
+    "designation": "Controller",
     "phone": 9004470555
   },
   {
     "name": "Dinesh K Gajbhiye",
     "designation": "CME",
-    "phone": 9004470350
+    "phone": 9004470350, isHOD: true
   },
   {
     "name": "Updendra Shendye",
     "designation": "CPM(MECH)",
-    "phone": 9004470351
+    "phone": 9004470351, isHOD: true
   },
   {
     "name": "B T Rajanna",
-    "designation": "DyCME (HQ)",
-    "phone": 9004470352
+    "designation": "DyCME(HQ)",
+    "phone": 9004470352, isHOD: true
   },
   {
     "name": "Rajesh Hombal",
     "designation": "Sr.MGR/PROJ/Nepal",
-    "phone": 9004470382
+    "phone": 9004470382, isHOD: true
   },
   {
     "name": "P G Purushothaman",
     "designation": "SME/PROJ",
-    "phone": 9004470551
+    "phone": 9004470551, isHOD: true
   },
   {
     "name": "Shubham Pandey",
     "designation": "AME",
-    "phone": 9004470451
+    "phone": 9004470451, isHOD: true
   },
   {
     "name": "Sanjay Khatri",
@@ -1145,13 +1145,13 @@ const directoryData = [
     "phone": 9004470558
   },
   {
-    "name": "Dr. Rajanish Shetty",
+    "name": "Dr Rajanish Shetty",
     "designation": "PCMO",
-    "phone": 9004470356
+    "phone": 9004470356, isHOD: true
   },
   {
-    "name": "Dr. Gazal Chougule",
-    "designation": "DyCMO",
+    "name": "Dr Gazal Chougule",
+    "designation": "Dy CMO",
     "phone": 9004470357
   },
   {
@@ -1217,22 +1217,22 @@ const directoryData = [
   {
     "name": "V C Sinha",
     "designation": "PCOM/PROJ",
-    "phone": 9004470481
+    "phone": 9004470481, isHOD: true
   },
   {
     "name": "Ashutosh Shrivastava",
     "designation": "COM(Additional Charge )",
-    "phone": 9004470380
+    "phone": 9004470380, isHOD: true
   },
   {
     "name": "C K Thobias",
-    "designation": "DyCOM",
-    "phone": 9004470381
+    "designation": "Dy COM",
+    "phone": 9004470381, isHOD: true
   },
   {
     "name": "Vedant Kaushik",
-    "designation": "AOM/ Control",
-    "phone": 9004470780
+    "designation": "AOM/Control",
+    "phone": 9004470780, isHOD: true
   },
   {
     "name": "Suvarna S Barde",
@@ -1316,27 +1316,27 @@ const directoryData = [
   },
   {
     "name": "Devendra T Ahire",
-    "designation": "DyCHC",
+    "designation": "Dy CHC",
     "phone": 9004470785
   },
   {
     "name": "Manish S Korade",
-    "designation": "DyCHC",
+    "designation": "Dy CHC",
     "phone": 9004470791
   },
   {
     "name": "Rajesh Kumar Singh",
-    "designation": "ME/TM",
+    "designation": "METM/BEL",
     "phone": 9004470786
   },
   {
     "name": "Pradeep M Thanekar",
-    "designation": "ME/TM",
+    "designation": "METM/BEL",
     "phone": 9004470789
   },
   {
     "name": "Madukar V Naik",
-    "designation": "ME/TM",
+    "designation": "METM/BEL",
     "phone": 9004470793
   },
   {
@@ -1377,22 +1377,22 @@ const directoryData = [
   {
     "name": "B B Nikam",
     "designation": "CPO",
-    "phone": 9004470360
+    "phone": 9004470360, isHOD: true
   },
   {
     "name": "P V Salgaonkar",
-    "designation": "DyCPO/HQ",
-    "phone": 9004470469
+    "designation": "Dy CPO/HQ",
+    "phone": 9004470469, isHOD: true
   },
   {
     "name": "Sayali Shinde",
     "designation": "SPO",
-    "phone": 9004470362
+    "phone": 9004470362, isHOD: true
   },
   {
     "name": "Gnanadeep Sangadala",
     "designation": "SPO",
-    "phone": 9004470363
+    "phone": 9004470363, isHOD: true
   },
   {
     "name": "Purnima Mayekar",
@@ -1456,7 +1456,7 @@ const directoryData = [
   },
   {
     "name": "Suchita Ghag",
-    "designation": "PS/ CPO",
+    "designation": "PS/CPO",
     "phone": 9004470369
   },
   {
@@ -1466,7 +1466,7 @@ const directoryData = [
   },
   {
     "name": "Ninad Pagedar",
-    "designation": "Sr. Clerk",
+    "designation": "Sr.Clerk",
     "phone": 9004470560
   },
   {
@@ -1475,8 +1475,8 @@ const directoryData = [
     "phone": 9004470774
   },
   {
-    "name": "Staff Grevences",
-    "designation": "Staff Grevences",
+    "name": "Staff Grievences",
+    "designation": "Staff Grievences",
     "phone": 9004470444
   },
   {
@@ -1542,27 +1542,27 @@ const directoryData = [
   {
     "name": "Ashish Apte",
     "designation": "PCSTE",
-    "phone": 9004470370
+    "phone": 9004470370, isHOD: true
   },
   {
     "name": "D Magesh",
     "designation": "CSTE(P&W)",
-    "phone": 9004470372
+    "phone": 9004470372, isHOD: true
   },
   {
     "name": "Ganesh Krishnan",
-    "designation": "DyCSTE/PDMC",
-    "phone": 9004470373
+    "designation": "Dy CSTE/PDMC",
+    "phone": 9004470373, isHOD: true
   },
   {
-    "name": "Ch. Ramesh Babu",
-    "designation": "DyCSTE/HQ",
-    "phone": 9004470374
+    "name": "Ch Ramesh Babu",
+    "designation": "Dy CSTE/HQ",
+    "phone": 9004470374, isHOD: true
   },
   {
     "name": "S N Todkar",
-    "designation": "DyCSTE/PROJ/I",
-    "phone": 9004470471
+    "designation": "Dy CSTE/PROJ/I",
+    "phone": 9004470471, isHOD: true
   },
   {
     "name": "M M Toraskar",
@@ -1786,23 +1786,23 @@ const directoryData = [
   },
   {
     "name": "S&T controller",
-    "designation": "CONTROLLER",
+    "designation": "Controller",
     "phone": 9004447499
   },
   {
     "name": "Sachin T Todkar",
-    "designation": "B.Peon",
+    "designation": "B Peon",
     "phone": 9004470686
   },
   {
     "name": "N M Telang",
     "designation": "CSO",
-    "phone": 9004470480
+    "phone": 9004470480, isHOD: true
   },
   {
     "name": "Manoj Kumar",
-    "designation": "AOM/ Safety",
-    "phone": 9004470870
+    "designation": "AOM/Safety",
+    "phone": 9004470870, isHOD: true
   },
   {
     "name": "Deepali Nagotkar",
@@ -1812,7 +1812,7 @@ const directoryData = [
   {
     "name": "A K Sinha",
     "designation": "PCSC",
-    "phone": 9004470330
+    "phone": 9004470330, isHOD: true
   },
   {
     "name": "Jubir Khan Pathan",
@@ -1837,7 +1837,7 @@ const directoryData = [
   {
     "name": "Dinesh G Nair",
     "designation": "IPF",
-    "phone": 9004470433
+    "phone": 9004470433, isHOD: true
   },
   {
     "name": "Rakesh Kumar Yadav",
@@ -1877,17 +1877,17 @@ const directoryData = [
   {
     "name": "Arun Mehata",
     "designation": "COS",
-    "phone": 9004470395
+    "phone": 9004470395, isHOD: true
   },
   {
     "name": "K Sitaramanujacharyulu",
-    "designation": "DyCMM",
-    "phone": 9004470496
+    "designation": "Dy CMM",
+    "phone": 9004470496, isHOD: true
   },
   {
     "name": "Michael W J",
-    "designation": "DyCMM/E",
-    "phone": 9004470397
+    "designation": "Dy CMM/E",
+    "phone": 9004470397, isHOD: true
   },
   {
     "name": "Mahajan S A",
@@ -1946,18 +1946,18 @@ const directoryData = [
   },
   {
     "name": "Narayan Shinde",
-    "designation": "GA /I",
+    "designation": "GA/I",
     "phone": 9004470729
   },
   {
     "name": "B K Gangte",
     "designation": "CVO",
-    "phone": 9004470460
+    "phone": 9004470460, isHOD: true
   },
   {
     "name": "V V Shinde",
-    "designation": "DyCVO",
-    "phone": 9004470345
+    "designation": "Dy CVO",
+    "phone": 9004470345, isHOD: true
   },
   {
     "name": "D K Vinchurkar",
@@ -1992,7 +1992,7 @@ const directoryData = [
   {
     "name": "Asha Shetty",
     "designation": "RRM/KW",
-    "phone": 9945047008
+    "phone": 9945047008, isHOD: true
   },
   {
     "name": "Gireesh Bhat",
@@ -2005,7 +2005,7 @@ const directoryData = [
     "phone": 9686656112
   },
   {
-    "name": "Jon Kunchirakkat.J",
+    "name": "Jon Kunchirakkat J",
     "designation": "INST/II/MAO",
     "phone": 9686685315
   },
@@ -2032,7 +2032,7 @@ const directoryData = [
   {
     "name": "Aravind Kumar",
     "designation": "RASO/KAWR",
-    "phone": 9686656211
+    "phone": 9686656211, isHOD: true
   },
   {
     "name": "C B Jaiswal",
@@ -2121,7 +2121,7 @@ const directoryData = [
   },
   {
     "name": "Uday Kumar",
-    "designation": "Sr.CA/UD",
+    "designation": "Sr CA/UD",
     "phone": 9686656156
   },
   {
@@ -2427,7 +2427,7 @@ const directoryData = [
   {
     "name": "Renu Nair",
     "designation": "APO/KW",
-    "phone": 9686656208
+    "phone": 9686656208, isHOD: true
   },
   {
     "name": "Gajendra Talekar",
@@ -2477,7 +2477,7 @@ const directoryData = [
   {
     "name": "Babu S Khedle",
     "designation": "REE/KAWR",
-    "phone": 9686656202
+    "phone": 9686656202, isHOD: true
   },
   {
     "name": "A N Bandekar",
@@ -2510,7 +2510,7 @@ const directoryData = [
     "phone": 8088417849
   },
   {
-    "name": "S.B Naik",
+    "name": "S B Naik",
     "designation": "SSE/TRD/KAWR",
     "phone": 8310137647
   },
@@ -2860,8 +2860,8 @@ const directoryData = [
     "phone": 8310137838
   },
   {
-    "name": "Dr. Steven George",
-    "designation": "Dy.CMO/UD",
+    "name": "Dr Steven George",
+    "designation": "Dy CMO/UD",
     "phone": 9686656164
   },
   {
@@ -2906,8 +2906,8 @@ const directoryData = [
   },
   {
     "name": "Rahul Baadkar",
-    "designation": "Sr.RSTE/KAWR",
-    "phone": 9686656207
+    "designation": "Sr RSTE/KAWR",
+    "phone": 9686656207, isHOD: true
   },
   {
     "name": "Sudharsan Reddy",
@@ -3210,88 +3210,88 @@ const directoryData = [
     "phone": 9686683951
   },
   {
-    "name": "AT Station",
-    "designation": "FCT Phone ",
+    "name": "Asnoti",
+    "designation": "AT Station FCT Phone ",
     "phone": 9019921261
   },
   {
-    "name": "HAA Station",
-    "designation": "FCT Phone ",
+    "name": "Harvada",
+    "designation": "HAA Station FCT Phone ",
     "phone": 9019921262
   },
   {
-    "name": "ANKL Station",
-    "designation": "FCT Phone ",
+    "name": "Ankola",
+    "designation": "ANKL Station FCT Phone ",
     "phone": 9019921263
   },
   {
-    "name": "GOK Station",
-    "designation": "FCT Phone ",
+    "name": "Gokarna Road",
+    "designation": "GOK Station FCT Phone ",
     "phone": 9019921258
   },
   {
-    "name": "MRJN Station",
-    "designation": "FCT Phone ",
+    "name": "Mirjan",
+    "designation": "MRJN Station FCT Phone ",
     "phone": 9019921255
   },
   {
-    "name": "HNA Station",
-    "designation": "FCT Phone ",
+    "name": "Honnavar",
+    "designation": "HNA Station FCT Phone ",
     "phone": 8088417855
   },
   {
-    "name": "MRDW Station",
-    "designation": "FCT Phone ",
+    "name": "Murdeshwar",
+    "designation": "MRDW Station FCT Phone ",
     "phone": 8310137805
   },
   {
-    "name": "BYNR Station",
-    "designation": "FCT Phone ",
+    "name": "Mookambika Road Bydoor",
+    "designation": "BYNR Station FCT Phone ",
     "phone": 8310137887
   },
   {
-    "name": "SHMI Station",
-    "designation": "FCT Phone ",
+    "name": "Shiroor",
+    "designation": "SHMI Station FCT Phone ",
     "phone": 9686037485
   },
   {
-    "name": "BIJR Station",
-    "designation": "FCT Phone ",
+    "name": "Bijoor",
+    "designation": "BIJR Station FCT Phone ",
     "phone": 9606448416
   },
   {
-    "name": "SEN Station",
-    "designation": "FCT Phone ",
+    "name": "Senapura",
+    "designation": "SEN Station FCT Phone ",
     "phone": 8310137825
   },
   {
-    "name": "KUDA Station",
-    "designation": "FCT Phone ",
+    "name": "Kundapura",
+    "designation": "KUDA Station FCT Phone ",
     "phone": 8310137826
   },
   {
-    "name": "INJ Station",
-    "designation": "FCT Phone ",
+    "name": "Innanje",
+    "designation": "INJ Station FCT Phone ",
     "phone": 9019921264
   },
   {
-    "name": "PDD Station",
-    "designation": "FCT Phone ",
+    "name": "Padubidri",
+    "designation": "PDD Station FCT Phone ",
     "phone": 9686683851
   },
   {
-    "name": "NAND Station",
-    "designation": "FCT Phone ",
+    "name": "Nandikur",
+    "designation": "NAND Station FCT Phone ",
     "phone": 8431404601
   },
   {
-    "name": "MULK Station",
-    "designation": "FCT Phone ",
+    "name": "Mulki",
+    "designation": "MULK Station FCT Phone ",
     "phone": 8431404602
   },
   {
-    "name": "TOK Station",
-    "designation": "FCT Phone ",
+    "name": "Thokur",
+    "designation": "TOK Station FCT Phone ",
     "phone": 9019921265
   },
   {
@@ -3302,7 +3302,7 @@ const directoryData = [
   {
     "name": "B S Nadage",
     "designation": "Sr.REN/KW",
-    "phone": 9686656203
+    "phone": 9686656203, isHOD: true
   },
   {
     "name": "Vijaykumar K",
@@ -3826,7 +3826,7 @@ const directoryData = [
   },
   {
     "name": "K Binu",
-    "designation": "CLI/SL",
+    "designation": "CLI/VEN",
     "phone": 9686699504
   },
   {
@@ -3967,7 +3967,7 @@ const directoryData = [
   {
     "name": "Dileep Bhat",
     "designation": "Sr.RTM/MAQ",
-    "phone": 9686656210
+    "phone": 9686656210, isHOD: true
   },
   {
     "name": "KAWR Control",
@@ -4020,7 +4020,7 @@ const directoryData = [
     "phone": 7624978592
   },
   {
-    "name": "Ananda Sheregar",
+    "name": "Ananda Sherugar",
     "designation": "SGTM/SL ",
     "phone": 7624978593
   },
@@ -4041,128 +4041,128 @@ const directoryData = [
   },
   {
     "name": "Asnoti",
-    "designation": "AT",
+    "designation": "AT Station CUG",
     "phone": 9686683901
   },
   {
     "name": "Karwar",
-    "designation": "KAWR",
+    "designation": "KAWR Station CUG",
     "phone": 9686683902
   },
   {
     "name": "Harwada",
-    "designation": "HAA",
+    "designation": "HAA Station CUG",
     "phone": 9686683903
   },
   {
     "name": "Ankola",
-    "designation": "ANKL",
+    "designation": "ANKL Station CUG",
     "phone": 9686683904
   },
   {
     "name": "Gokarna Road",
-    "designation": "GOK",
+    "designation": "GOK Station CUG",
     "phone": 9686683905
   },
   {
     "name": "Mirjan",
-    "designation": "MRJN",
+    "designation": "MRJN Station CUG",
     "phone": 9606932729
   },
   {
     "name": "Kumta",
-    "designation": "KT",
+    "designation": "KT Station CUG",
     "phone": 9686683906
   },
   {
     "name": "Honnavar",
-    "designation": "HNA",
+    "designation": "HNA Station CUG",
     "phone": 9686683907
   },
   {
     "name": "Manki",
-    "designation": "MANK",
+    "designation": "MANK Station CUG",
     "phone": 9686683908
   },
   {
     "name": "Murdeshwar",
-    "designation": "MRDW",
+    "designation": "MRDW Station CUG",
     "phone": 9686683910
   },
   {
     "name": "Bhatkal",
-    "designation": "BTJL",
+    "designation": "BTJL Station CUG",
     "phone": 9686683911
   },
   {
     "name": "Shiroor",
-    "designation": "SHMI",
+    "designation": "SHMI Station CUG",
     "phone": 9686683912
   },
   {
     "name": "Bijoor",
-    "designation": "BIJR",
+    "designation": "BIJR Station CUG",
     "phone": 9686683913
   },
   {
     "name": "Senapura",
-    "designation": "SEN",
+    "designation": "SEN Station CUG",
     "phone": 9686683914
   },
   {
     "name": "Kundapura",
-    "designation": "KUDA",
+    "designation": "KUDA Station CUG",
     "phone": 9686683915
   },
   {
     "name": "Barkur",
-    "designation": "BKJ",
+    "designation": "BKJ Station CUG",
     "phone": 9686683916
   },
   {
     "name": "Udupi",
-    "designation": "UD",
+    "designation": "UD Station CUG",
     "phone": 9686683917
   },
   {
     "name": "Innanje",
-    "designation": "INJ",
+    "designation": "INJ Station CUG",
     "phone": 9019921259
   },
   {
     "name": "Padubidri",
-    "designation": "PDD",
+    "designation": "PDD Station CUG",
     "phone": 9686683918
   },
   {
     "name": "Mookambika Road Byndoor",
-    "designation": "BYNR",
+    "designation": "BYNR Station CUG",
     "phone": 9686683919
   },
   {
     "name": "Nandikur",
-    "designation": "NAND",
+    "designation": "NAND Station CUG",
     "phone": 9686683920
   },
   {
     "name": "Mulki",
-    "designation": "MULK",
+    "designation": "MULK Station CUG",
     "phone": 9686683921
   },
   {
     "name": "Suratkal",
-    "designation": "SL",
+    "designation": "SL Station CUG",
     "phone": 9686683922
   },
   {
     "name": "Thokur",
-    "designation": "TOK",
+    "designation": "TOK Station CUG",
     "phone": 9686683923
   },
   {
-    "name": "S.D.Bapat",
+    "name": "S D Bapat",
     "designation": "RRM/RN",
-    "phone": 9004447008
+    "phone": 9004447008, isHOD: true
   },
   {
     "name": "Neha Toraskar",
@@ -4171,53 +4171,53 @@ const directoryData = [
   },
   {
     "name": "S G Kadam",
-    "designation": "Dr/AEN",
+    "designation": "Driver/AEN",
     "phone": 9004474791
   },
   {
-    "name": "S.G.Shembekar",
-    "designation": "Dr/RME",
+    "name": "S G Shembekar",
+    "designation": "Driver/RME",
     "phone": 9004474795
   },
   {
-    "name": "B.P.Manorkar",
-    "designation": "Dr/ASTE/CHI",
+    "name": "B P Manorkar",
+    "designation": "Driver/ASTE/CHI",
     "phone": 9004474796
   },
   {
     "name": "Vikas Peje",
-    "designation": "Dr/RRM",
+    "designation": "Driver/RRM",
     "phone": 9004474788
   },
   {
     "name": "Santosh Mulye",
-    "designation": "Dr/AOM",
+    "designation": "Driver/AOM",
     "phone": 9004474792
   },
   {
-    "name": "U.A.Joshi",
-    "designation": "Dr/RME",
+    "name": "U A Joshi",
+    "designation": "Driver/RME",
     "phone": 9004474793
   },
   {
     "name": "Raju Kalal",
-    "designation": "Dr/RPF",
+    "designation": "Driver/RPF",
     "phone": 9004474882
   },
   {
     "name": "A S Sawardekar",
-    "designation": "Dr/SEN/CHI",
+    "designation": "Driver/SEN/CHI",
     "phone": 9004474859
   },
   {
     "name": "Uday Shetye",
-    "designation": "Dr/REE",
+    "designation": "Driver/REE",
     "phone": 9004474797
   },
   {
     "name": "Pradeep Baliga K.",
     "designation": "RFA/RN",
-    "phone": 9004474401
+    "phone": 9004474401, isHOD: true
   },
   {
     "name": "Tazeen Hazwani",
@@ -4242,7 +4242,7 @@ const directoryData = [
   {
     "name": "Shailesh Ambardekar",
     "designation": "RTM-I/RN",
-    "phone": 9004474410
+    "phone": 9004474410, isHOD: true
   },
   {
     "name": "Malavade",
@@ -4270,57 +4270,57 @@ const directoryData = [
     "phone": 9004474528
   },
   {
-    "name": "Dy.CEE/RE/RN",
-    "designation": "Dy.CEE/RE/RN",
+    "name": "Dy CEE/RE/RN",
+    "designation": "Dy CEE/RE/RN",
     "phone": 7400408330
   },
   {
     "name": "R P Joshi",
     "designation": "REE/RN",
-    "phone": 9004474413
+    "phone": 9004474413, isHOD: true
   },
   {
-    "name": "A.A.Ketkar",
+    "name": "A A Ketkar",
     "designation": "AEE/RN",
-    "phone": 9004474582
+    "phone": 9004474582, isHOD: true
   },
   {
     "name": "Siddhesh S Gawas",
     "designation": "AEE/RE/CHI",
-    "phone": 7400408340
+    "phone": 7400408340, isHOD: true
   },
   {
     "name": "AEE/RE/RN",
     "designation": "AEE/RE/RN",
-    "phone": 8668790413
+    "phone": 8668790413, isHOD: true
   },
   {
     "name": "AEE/RE/KUDAL",
     "designation": "AEE/RE/KUDAL",
-    "phone": 8668793681
+    "phone": 8668793681, isHOD: true
   },
   {
-    "name": "P.B.Patil",
+    "name": "P B Patil",
     "designation": "SSE/AM/RN",
     "phone": 9004474581
   },
   {
-    "name": "U.S.Pawar",
+    "name": "U S Pawar",
     "designation": "SE/EL/LM/CHI",
     "phone": 9004474584
   },
   {
-    "name": "A.C.Shivalkar",
+    "name": "A C Shivalkar",
     "designation": "SE/EL/LM/RN",
     "phone": 9004474585
   },
   {
-    "name": "U.S.Pawar(Stn)",
+    "name": "U S Pawar(Stn)",
     "designation": "SE/EL/LM/CHI",
     "phone": 7400408341
   },
   {
-    "name": "M.D.Vetoskar",
+    "name": "M D Vetoskar",
     "designation": "SSE/ELE/RN",
     "phone": 9004474591
   },
@@ -4331,12 +4331,12 @@ const directoryData = [
   },
   {
     "name": "Escallator",
-    "designation": "SSE/EL",
+    "designation": "SSE/EL/RN",
     "phone": 7400408739
   },
   {
-    "name": "P.S.Thitte(Travellator)",
-    "designation": "SSE/EL",
+    "name": "P S Thitte(Travellator)",
+    "designation": "SSE/EL/RN",
     "phone": 7400408740
   },
   {
@@ -4345,12 +4345,12 @@ const directoryData = [
     "phone": 7400408348
   },
   {
-    "name": "K.S.Salvi",
+    "name": "K S Salvi",
     "designation": "SSE/RE/RN",
     "phone": 7400408349
   },
   {
-    "name": "Shreyas R.Shelar",
+    "name": "Shreyas R Shelar",
     "designation": "SSE/ELE/Doubling",
     "phone": 7410100475
   },
@@ -4365,27 +4365,27 @@ const directoryData = [
     "phone": 8010903487
   },
   {
-    "name": "S.S.Varekar",
+    "name": "S S Varekar",
     "designation": "JEE/LM/RN",
     "phone": 9004474592
   },
   {
-    "name": "U.K. Choughule",
+    "name": "U K Choughule",
     "designation": "JEE/TL/RN",
     "phone": 9004474590
   },
   {
-    "name": "P.S.Thete",
+    "name": "P S Thete",
     "designation": "JE/EL/TL/RN",
     "phone": 9004474586
   },
   {
-    "name": "G.H.Mestry",
+    "name": "G H Mestry",
     "designation": "JEE/KUDL",
     "phone": 9004474587
   },
   {
-    "name": "D.G.Gune",
+    "name": "D G Gune",
     "designation": "JE/LM/RN",
     "phone": 9004474588
   },
@@ -4400,7 +4400,7 @@ const directoryData = [
     "phone": 7400408344
   },
   {
-    "name": "D.G.Nagothakar",
+    "name": "D G Nagothakar",
     "designation": "JE/MNI",
     "phone": 7400408345
   },
@@ -4420,17 +4420,17 @@ const directoryData = [
     "phone": 8010903486
   },
   {
-    "name": "M.G.Bhatkar",
+    "name": "M G Bhatkar",
     "designation": "JE/SGR",
     "phone": 7400408342
   },
   {
-    "name": "G.P. Bhunde",
+    "name": "G P Bhunde",
     "designation": "MCM",
     "phone": 7410105499
   },
   {
-    "name": "R.B. Sawant",
+    "name": "R B Sawant",
     "designation": "MCM",
     "phone": 7410105856
   },
@@ -4690,9 +4690,9 @@ const directoryData = [
     "phone": 9004474596
   },
   {
-    "name": "R.I.Patil",
-    "designation": "Sr.REN/RN",
-    "phone": 9004474403
+    "name": "R I Patil",
+    "designation": "Sr REN/RN",
+    "phone": 9004474403, isHOD: true
   },
   {
     "name": "SEN/SPL/RN",
@@ -4700,7 +4700,7 @@ const directoryData = [
     "phone": 7400408320
   },
   {
-    "name": "G.B.Nagale",
+    "name": "G B Nagale",
     "designation": "SEN/KKW",
     "phone": 9004474423
   },
@@ -4715,7 +4715,7 @@ const directoryData = [
     "phone": 9004474422
   },
   {
-    "name": "K.N.Bidri",
+    "name": "K N Bidri",
     "designation": "AEN/SP/W/KHED",
     "phone": 7400408321
   },
@@ -4730,17 +4730,17 @@ const directoryData = [
     "phone": 9004474421
   },
   {
-    "name": "S.R.Gunje",
+    "name": "S R Gunje",
     "designation": "AEN/SP/W/CHI",
     "phone": 7400408322
   },
   {
-    "name": "P.D.Garje",
+    "name": "P D Garje",
     "designation": "AEN/Works",
     "phone": 7400408310
   },
   {
-    "name": "B.V.Murkute",
+    "name": "B V Murkute",
     "designation": "SSE/KHED",
     "phone": 7400408311
   },
@@ -4750,7 +4750,7 @@ const directoryData = [
     "phone": 9004474610
   },
   {
-    "name": "D.S.Dange",
+    "name": "D S Dange",
     "designation": "SSE/MNI",
     "phone": 9004474602
   },
@@ -4770,7 +4770,7 @@ const directoryData = [
     "phone": 9004474615
   },
   {
-    "name": "P.S.Gogate",
+    "name": "P S Gogate",
     "designation": "SSE/ENGG/RN",
     "phone": 9004474620
   },
@@ -4780,12 +4780,12 @@ const directoryData = [
     "phone": 9004474604
   },
   {
-    "name": "S.D.Kshirsagar",
+    "name": "S D Kshirsagar",
     "designation": "SSE/SW/RN",
     "phone": 7400408312
   },
   {
-    "name": "S.D.Thorat",
+    "name": "S D Thorat",
     "designation": "SSE/W/RN",
     "phone": 9004474630
   },
@@ -4795,7 +4795,7 @@ const directoryData = [
     "phone": 9004474605
   },
   {
-    "name": "S.V.Kadam",
+    "name": "S V Kadam",
     "designation": "SSE/VID",
     "phone": 9004474606
   },
@@ -4805,17 +4805,17 @@ const directoryData = [
     "phone": 9004474616
   },
   {
-    "name": "P.N.Patil",
+    "name": "P N Patil",
     "designation": "SSE/KKW",
     "phone": 9004474607
   },
   {
-    "name": "S.G.Phadke",
+    "name": "S G Phadke",
     "designation": "SSE/W/KKW",
     "phone": 9004474621
   },
   {
-    "name": "R.T.Manjarekar",
+    "name": "R T Manjarekar",
     "designation": "SSE/P/SWV",
     "phone": 9004474639
   },
@@ -4825,17 +4825,17 @@ const directoryData = [
     "phone": 9004474625
   },
   {
-    "name": "P.N.Patil",
+    "name": "P N Patil",
     "designation": "SSE/Works/KKW",
     "phone": 7400408325
   },
   {
-    "name": "V.B.Shinde",
+    "name": "V B Shinde",
     "designation": "JE/MNI",
     "phone": 9004474624
   },
   {
-    "name": "B.S.Thorat",
+    "name": "B S Thorat",
     "designation": "JE/W/MNI",
     "phone": 9004474623
   },
@@ -4845,7 +4845,7 @@ const directoryData = [
     "phone": 9004474622
   },
   {
-    "name": "A.A.Salvi",
+    "name": "A A Salvi",
     "designation": "JE/KFD",
     "phone": 9004474611
   },
@@ -4855,37 +4855,37 @@ const directoryData = [
     "phone": 9004474612
   },
   {
-    "name": "S.A.Nadaf",
+    "name": "S A Nadaf",
     "designation": "JE1/Khed",
     "phone": 7400408326
   },
   {
-    "name": "R.D.Thorat",
+    "name": "R D Thorat",
     "designation": "JE/CHI",
     "phone": 9004474642
   },
   {
-    "name": "R.M.Diwate",
+    "name": "R M Diwate",
     "designation": "JE/CHI",
     "phone": 9004474626
   },
   {
-    "name": "P.S.Pendhere",
+    "name": "P S Pendhere",
     "designation": "JE/MMG/CHI",
     "phone": 9004474613
   },
   {
-    "name": "R.S.Petkar",
+    "name": "R S Petkar",
     "designation": "JE/SP/W/CHI",
     "phone": 9004474670
   },
   {
-    "name": "D.E.Rane",
+    "name": "D E Rane",
     "designation": "JE/SP/KFD",
     "phone": 7400408323
   },
   {
-    "name": "S.P.Todankar",
+    "name": "S P Todankar",
     "designation": "JE/DD/RN",
     "phone": 9004474628
   },
@@ -4895,27 +4895,27 @@ const directoryData = [
     "phone": 9004474631
   },
   {
-    "name": "H.R.Salunkhe",
+    "name": "H R Salunkhe",
     "designation": "JE/PWay/RN",
     "phone": 7400408313
   },
   {
-    "name": "C.M.Musle",
+    "name": "C M Musle",
     "designation": "JE/Land (Sr.clerk)",
     "phone": 9004474629
   },
   {
-    "name": "M.M.Kalambate",
+    "name": "M M Kalambate",
     "designation": "JE/SP/W",
     "phone": 9004474640
   },
   {
-    "name": "R.A.Adisare",
+    "name": "R A Adisare",
     "designation": "JE/RN",
     "phone": 9004474617
   },
   {
-    "name": "M.P.Bendre",
+    "name": "M P Bendre",
     "designation": "JE/I/SPW/RN",
     "phone": 9004474692
   },
@@ -4930,7 +4930,7 @@ const directoryData = [
     "phone": 9004474618
   },
   {
-    "name": "S.B.Shinde",
+    "name": "S B Shinde",
     "designation": "JE/VID",
     "phone": 9004474635
   },
@@ -4940,7 +4940,7 @@ const directoryData = [
     "phone": 9004474694
   },
   {
-    "name": "R.S.Aundhakar",
+    "name": "R S Aundhakar",
     "designation": "JE/VID",
     "phone": 7400408327
   },
@@ -4950,7 +4950,7 @@ const directoryData = [
     "phone": 9004474653
   },
   {
-    "name": "D.B.Satam",
+    "name": "D B Satam",
     "designation": "JE1/VBW",
     "phone": 7400408324
   },
@@ -4970,107 +4970,107 @@ const directoryData = [
     "phone": 9004474637
   },
   {
-    "name": "R.M.Diwate",
+    "name": "R M Diwate",
     "designation": "JE/DL/MNI",
     "phone": 7410103329
   },
   {
-    "name": "A.S.Dhumal",
+    "name": "A S Dhumal",
     "designation": "JE/SPL/MNI",
     "phone": 7400408318
   },
   {
-    "name": "P.S.Deogharkar",
+    "name": "P S Deogharkar",
     "designation": "JE/SPL/MNI",
     "phone": 7400408319
   },
   {
-    "name": "P.M.Deshmukh",
+    "name": "P M Deshmukh",
     "designation": "JE/TRD/MNI",
     "phone": 9004474609
   },
   {
-    "name": "M.K.Tamboli",
+    "name": "M K Tamboli",
     "designation": "PWS/KOL",
     "phone": 9004474641
   },
   {
-    "name": "R.D.Thatre",
+    "name": "R D Thatre",
     "designation": "PWS/KOL",
     "phone": 9004474663
   },
   {
-    "name": "N.R.Shinde",
+    "name": "N R Shinde",
     "designation": "PWS/VEER",
     "phone": 9004474645
   },
   {
-    "name": "S.R.Gandhi",
+    "name": "S R Gandhi",
     "designation": "PWS/KHED",
     "phone": 9004474646
   },
   {
-    "name": "J.K.Patil",
+    "name": "J K Patil",
     "designation": "PWS/CHI",
     "phone": 9004474647
   },
   {
-    "name": "D.K.Jadhav",
+    "name": "D K Jadhav",
     "designation": "PWS/SVX",
     "phone": 9004474659
   },
   {
-    "name": "U.K.Sakpal",
+    "name": "U K Sakpal",
     "designation": "PWS/SGR",
     "phone": 9004474648
   },
   {
-    "name": "K.E.Shimpi",
+    "name": "K E Shimpi",
     "designation": "PWS/RN",
     "phone": 9004474657
   },
   {
-    "name": "P.P.Kinare",
+    "name": "P P Kinare",
     "designation": "PWS/RN",
     "phone": 9004474658
   },
   {
-    "name": "A.Y.Nimkar",
+    "name": "A Y Nimkar",
     "designation": "PWS/SP/RN",
     "phone": 9004474652
   },
   {
-    "name": "R.B.Patil",
+    "name": "R B Patil",
     "designation": "PWS/VID",
     "phone": 9004474660
   },
   {
-    "name": "A.B.Rawool",
+    "name": "A B Rawool",
     "designation": "PWS/SNDD",
     "phone": 9004474656
   },
   {
-    "name": "P.S.Tawade",
+    "name": "P S Tawade",
     "designation": "PWS/KKW",
     "phone": 9004474661
   },
   {
-    "name": "B.S.Gavas",
+    "name": "B S Gavas",
     "designation": "PWS/SWV",
     "phone": 9004474688
   },
   {
-    "name": "P.G.Mazgaonkar",
+    "name": "P G Mazgaonkar",
     "designation": "PWS/SWV",
     "phone": 9004474655
   },
   {
-    "name": "J.Malvankar",
+    "name": "J Malvankar",
     "designation": "PWS/MADR",
     "phone": 9004474696
   },
   {
-    "name": "H.S.Raut",
+    "name": "H S Raut",
     "designation": "APWS/KOL",
     "phone": 9004474662
   },
@@ -5080,92 +5080,92 @@ const directoryData = [
     "phone": 9004474675
   },
   {
-    "name": "M.S.Deshmukh",
+    "name": "M S Deshmukh",
     "designation": "APWS/KFD",
     "phone": 9004474664
   },
   {
-    "name": "G.S.Kadam",
+    "name": "G S Kadam",
     "designation": "APWS/KFD",
     "phone": 9004474665
   },
   {
-    "name": "S.S.More",
+    "name": "S S More",
     "designation": "APWS/DWV",
     "phone": 9004474666
   },
   {
-    "name": "S.S.Utekar",
+    "name": "S S Utekar",
     "designation": "APWS/KHED",
     "phone": 9004474667
   },
   {
-    "name": "V.D.Date",
+    "name": "V D Date",
     "designation": "APWS/ANO",
     "phone": 9004474669
   },
   {
-    "name": "S.R.Khariwale",
+    "name": "S R Khariwale",
     "designation": "APWS/CHI",
     "phone": 9004474671
   },
   {
-    "name": "B.D.Kate",
+    "name": "B D Kate",
     "designation": "APWS/KMAH",
     "phone": 9004474672
   },
   {
-    "name": "V.G.Lad",
+    "name": "V G Lad",
     "designation": "APWS/AVRD",
     "phone": 9004474674
   },
   {
-    "name": "G.J.Chavan",
+    "name": "G J Chavan",
     "designation": "APWS/UKC",
     "phone": 9004474678
   },
   {
-    "name": "N.B.Bashte",
+    "name": "N B Bashte",
     "designation": "APWS/RN",
     "phone": 9004474677
   },
   {
-    "name": "S.M.Gurav",
+    "name": "S M Gurav",
     "designation": "APWS/RN",
     "phone": 9004474676
   },
   {
-    "name": "B.Y.Shinde",
+    "name": "B Y Shinde",
     "designation": "APWS/NIV",
     "phone": 9004474679
   },
   {
-    "name": "P.K.Patil",
+    "name": "P K Patil",
     "designation": "APWS/ADVI",
     "phone": 9004474680
   },
   {
-    "name": "P.S.Chawan",
+    "name": "P S Chawan",
     "designation": "APWS/VBW",
     "phone": 9004474682
   },
   {
-    "name": "S.S.Ghogale",
+    "name": "S S Ghogale",
     "designation": "APWS/VBW",
     "phone": 9004474683
   },
   {
-    "name": "B.F.Girkar",
+    "name": "B F Girkar",
     "designation": "APWS/NAN",
     "phone": 9004474684
   },
   {
-    "name": "S.R.Gosavi",
+    "name": "S R Gosavi",
     "designation": "APWS/KKW",
     "phone": 9004474686
   },
   {
-    "name": "S.S.More",
+    "name": "S S More",
     "designation": "APWS/KKW",
     "phone": 9004474685
   },
@@ -5175,7 +5175,7 @@ const directoryData = [
     "phone": 9004474687
   },
   {
-    "name": "S.V.Birwadkar",
+    "name": "S V Birwadkar",
     "designation": "MPUM/RN",
     "phone": 9004474691
   },
@@ -5525,17 +5525,17 @@ const directoryData = [
     "phone": 7410103792
   },
   {
-    "name": "S.V.More",
+    "name": "S V More",
     "designation": "TM-I",
     "phone": 9226084137
   },
   {
-    "name": "R.G.Chalke",
+    "name": "R G Chalke",
     "designation": "TM-I",
     "phone": 9226084138
   },
   {
-    "name": "K.S.Bole",
+    "name": "K S Bole",
     "designation": "TM-I",
     "phone": 9226084139
   },
@@ -5570,7 +5570,7 @@ const directoryData = [
     "phone": 9004474638
   },
   {
-    "name": "M.R.Dabolkar",
+    "name": "M R Dabolkar",
     "designation": "Dr/SSE/KKW",
     "phone": 9004474654
   },
@@ -5580,7 +5580,7 @@ const directoryData = [
     "phone": 9004474634
   },
   {
-    "name": "P.G.Surve",
+    "name": "P G Surve",
     "designation": "DR/RN",
     "phone": 9004474695
   },
@@ -5590,7 +5590,7 @@ const directoryData = [
     "phone": 9004474681
   },
   {
-    "name": "S.K.Pandit",
+    "name": "S K Pandit",
     "designation": "RMIT/RN",
     "phone": 9004474412
   },
@@ -5600,7 +5600,7 @@ const directoryData = [
     "phone": 9004474775
   },
   {
-    "name": "P.S.Chikhale",
+    "name": "P S Chikhale",
     "designation": "SAIT/KHED",
     "phone": 9004474776
   },
@@ -5610,17 +5610,17 @@ const directoryData = [
     "phone": 9004474777
   },
   {
-    "name": "S.Bhadvalkar",
+    "name": "S Bhadvalkar",
     "designation": "SP/SGR",
     "phone": 9004474778
   },
   {
-    "name": "M.Karandikar",
+    "name": "M Karandikar",
     "designation": "SA/RN",
     "phone": 9004474779
   },
   {
-    "name": "N.Wadkar",
+    "name": "N Wadkar",
     "designation": "SA/RN",
     "phone": 9004474781
   },
@@ -5630,17 +5630,17 @@ const directoryData = [
     "phone": 9004474785
   },
   {
-    "name": "T.P.Dhumal",
+    "name": "T P Dhumal",
     "designation": "SP(IT)",
     "phone": 9004474443
   },
   {
-    "name": "S.P.Kanavaje",
+    "name": "S P Kanavaje",
     "designation": "SP/IT/VID",
     "phone": 9004474782
   },
   {
-    "name": "M.S.Rane",
+    "name": "M S Rane",
     "designation": "SP/KKW",
     "phone": 9004474783
   },
@@ -5650,22 +5650,22 @@ const directoryData = [
     "phone": 9004474784
   },
   {
-    "name": "T.Kumaran",
+    "name": "T Kumaran",
     "designation": "RME/RN",
-    "phone": 9004474404
+    "phone": 9004474404, isHOD: true
   },
   {
     "name": "AME/RN",
     "designation": "AME",
-    "phone": 7400408352
+    "phone": 7400408352, isHOD: true
   },
   {
     "name": "AME/RN",
     "designation": "AME",
-    "phone": 7400408108
+    "phone": 7400408108, isHOD: true
   },
   {
-    "name": "G.K.Lokhande",
+    "name": "G.K Lokhande",
     "designation": "SSE/M/RN",
     "phone": 9004474801
   },

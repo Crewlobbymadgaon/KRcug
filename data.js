@@ -6615,7 +6615,7 @@ const directoryData = [
     "phone": 8668699798
   },
   {
-    "name": "Pratap Gad",
+    "name": "Prashant Gad",
     "designation": "ATM",
     "phone": 9004474411
   },
@@ -7090,7 +7090,7 @@ const directoryData = [
     "phone": 9004474564
   },
   {
-    "name": "Nivasar",
+    "name": "Nivsar",
     "designation": "NIV Station CUG",
     "phone": 9004474565
   },
@@ -7258,11 +7258,6 @@ const directoryData = [
     "name": "Veravali",
     "designation": "VRLI Station CUG",
     "phone": 9699745805
-  },
-  {
-    "name": "Nivasar",
-    "designation": "NIV Station CUG",
-    "phone": 9004474759
   },
   {
     "name": "Kharepatan",

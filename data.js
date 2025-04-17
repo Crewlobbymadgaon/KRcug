@@ -10,7 +10,7 @@ const directoryData = [
     "phone": 9004447009, isHOD: true
   },
   {
-    "name": "Santosh Kumar Jha",
+    "name": "Sunil Gupta",
     "designation": "Director(Operations & Commercial) (DIR-O&C)",
     "phone": 9004447001, isHOD: true
   },
@@ -46,7 +46,7 @@ const directoryData = [
   },
   {
     "name": "Anita Gracy M Chettiar",
-    "designation": "Personal Secretary/(DIR(W&W)",
+    "designation": "Personal Secretary/DIR(W&W)",
     "phone": 9004470715
   },
   {
@@ -56,43 +56,43 @@ const directoryData = [
   },
   {
     "name": "Vishnu K Lad",
-    "designation": "General Assistant",
+    "designation": "General Assistant (GA)",
     "phone": 9004470779
   },
   {
     "name": "Deepak Parab",
-    "designation": "General Assistants",
+    "designation": "General Assistant (GA)",
     "phone": 9004470706
   },
   {
     "name": "Yogesh G Thite",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470506
   },
   {
     "name": "Lalan Mandal",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470744
   },
   {
     "name": "Guruprasad Acharya",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470751
   },
   {
     "name": "S R Munde",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470756
   },
   {
     "name": "Mujeeb Khan",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470507
   },
   {
     "name": "R C Parab",
-    "designation": "CO.SEC",
-    "phone": 9004447004
+    "designation": "Company Secretary ",
+    "phone": 9004447004, isHOD: true
   },
   {
     "name": "Sindhu Sarath",
@@ -116,7 +116,7 @@ const directoryData = [
   },
   {
     "name": "Vanita S D",
-    "designation": "OS/Bonds",
+    "designation": "Office Superintendent (OS/Bonds)",
     "phone": 9321965823
   },
   {
@@ -126,7 +126,7 @@ const directoryData = [
   },
   {
     "name": "Kamlesh Yadav",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470705
   },
   {
@@ -176,7 +176,7 @@ const directoryData = [
   },
   {
     "name": "Vaishali Patange",
-    "designation": "DGM(TRG)",
+    "designation": "DGM(TRAINING)",
     "phone": 9004470461, isHOD: true
   },
   {
@@ -261,12 +261,12 @@ const directoryData = [
   },
   {
     "name": "Mathew Philip",
-    "designation": "ED (FA)",
+    "designation": "Executive Director (Financial Advisor) (ED-FA)",
     "phone": 9004470310, isHOD: true
   },
   {
     "name": "Debasish Mitra",
-    "designation": "GM/Finance",
+    "designation": "General Manager/Finance",
     "phone": 9004470312, isHOD: true
   },
   {
@@ -276,12 +276,12 @@ const directoryData = [
   },
   {
     "name": "Arup Bagui",
-    "designation": "Dy FA&CAO (TAX &ESTB)",
+    "designation": "Dy FA&CAO (TAX & ESTB)",
     "phone": 9004470313, isHOD: true
   },
   {
     "name": "Manoj Panda",
-    "designation": "Dy FA&CAO(F&TRAFFIC)",
+    "designation": "Dy FA&CAO(FINANCE & TRAFFIC)",
     "phone": 9004470315, isHOD: true
   },
   {
@@ -376,7 +376,7 @@ const directoryData = [
   },
   {
     "name": "A Gurunathan",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470519
   },
   {
@@ -391,22 +391,22 @@ const directoryData = [
   },
   {
     "name": "Ashutosh Shrivastava",
-    "designation": "CCM",
+    "designation": "Chief Commercial MAnager (CCM)",
     "phone": 9004470391, isHOD: true
   },
   {
     "name": "Dinesh G Bonde",
-    "designation": "DyCCM",
+    "designation": "Dy CCM",
     "phone": 9004470394, isHOD: true
   },
   {
     "name": "Sunil Narkar",
-    "designation": "DyCCM",
+    "designation": "Dy CCM",
     "phone": 9004470393, isHOD: true
   },
   {
     "name": "Rajendra D Gholap",
-    "designation": "DyCCM",
+    "designation": "Dy CCM",
     "phone": 9004470494, isHOD: true
   },
   {
@@ -466,17 +466,17 @@ const directoryData = [
   },
   {
     "name": "Pratik Patil",
-    "designation": "GTM",
+    "designation": "Goods Train Manager (GTM)",
     "phone": 9004470773
   },
   {
     "name": "Rajan Bandelkar",
-    "designation": "Sr.TE",
+    "designation": "Sr TE",
     "phone": 9004470630
   },
   {
     "name": "Mangala Mahadik",
-    "designation": "Sr.TE",
+    "designation": "Sr TE",
     "phone": 9004470631
   },
   {
@@ -511,12 +511,12 @@ const directoryData = [
   },
   {
     "name": "Krishna Lambani",
-    "designation": "CPM",
+    "designation": "Chief Project Manager (Electrical) (CPM-EL)",
     "phone": 9004470342, isHOD: true
   },
   {
     "name": "P K Kurade",
-    "designation": "CPM",
+    "designation": "Dy Chief Project Manager (TRD) (Dy CPM)",
     "phone": 9004470441, isHOD: true
   },
   {
@@ -676,12 +676,12 @@ const directoryData = [
   },
   {
     "name": "Brij Kumar Yadav",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470925
   },
   {
     "name": "Nagadath R Rao",
-    "designation": "PCE",
+    "designation": "Principal Chief Engineer (PCE)",
     "phone": 9004470320, isHOD: true
   },
   {
@@ -691,12 +691,12 @@ const directoryData = [
   },
   {
     "name": "P G R Nair",
-    "designation": "DYCE/Bridge",
+    "designation": "Dy CE/Bridge",
     "phone": 9004470324, isHOD: true
   },
   {
     "name": "Uday Bhaskar",
-    "designation": "Dy.CE/T",
+    "designation": "Dy CE/T",
     "phone": 9004470326, isHOD: true
   },
   {
@@ -821,7 +821,7 @@ const directoryData = [
   },
   {
     "name": "Rajesh K",
-    "designation": "CPM/INFA",
+    "designation": "CPM/INFRA",
     "phone": 9004470485, isHOD: true
   },
   {
@@ -836,12 +836,12 @@ const directoryData = [
   },
   {
     "name": "Birendra Kumar",
-    "designation": "DYCE/TVC",
+    "designation": "Dy CE/TVC",
     "phone": 9004470488, isHOD: true
   },
   {
     "name": "T Subramanyam",
-    "designation": "DYCE",
+    "designation": "Dy CE",
     "phone": 9004470459, isHOD: true
   },
   {
@@ -886,7 +886,7 @@ const directoryData = [
   },
   {
     "name": "D E Rane",
-    "designation": "JE /Gadarvara",
+    "designation": "JE/Gadarvara",
     "phone": 9004470435
   },
   {
@@ -941,17 +941,17 @@ const directoryData = [
   },
   {
     "name": "Nevile Monterio",
-    "designation": "Sr.SP/IT",
+    "designation": "Sr SP/IT",
     "phone": 9004470626
   },
   {
     "name": "Santosh Mane",
-    "designation": "Sr.SP/IT",
+    "designation": "Sr SP/IT",
     "phone": 9004470627
   },
   {
     "name": "Dilip Choudhary",
-    "designation": "Sr.SP/IT",
+    "designation": "Sr SP/IT",
     "phone": 9004470629
   },
   {
@@ -1056,7 +1056,7 @@ const directoryData = [
   },
   {
     "name": "Dinesh K Gajbhiye",
-    "designation": "CME",
+    "designation": "Chief Mechanical Engineer (CME)",
     "phone": 9004470350, isHOD: true
   },
   {
@@ -1071,7 +1071,7 @@ const directoryData = [
   },
   {
     "name": "Rajesh Hombal",
-    "designation": "Sr.MGR/PROJ/Nepal",
+    "designation": "Sr MGR/PROJ/Nepal",
     "phone": 9004470382, isHOD: true
   },
   {
@@ -1146,7 +1146,7 @@ const directoryData = [
   },
   {
     "name": "Dr Rajanish Shetty",
-    "designation": "PCMO",
+    "designation": "Principal Chief Medical Officer (PCMO)",
     "phone": 9004470356, isHOD: true
   },
   {
@@ -1161,12 +1161,12 @@ const directoryData = [
   },
   {
     "name": "Harshal Patil",
-    "designation": "HI",
+    "designation": "Health Inspector (HI)",
     "phone": 9004470531
   },
   {
     "name": "Smita Ganesh",
-    "designation": "HI",
+    "designation": "Health Inspector (HI)",
     "phone": 9004470532
   },
   {
@@ -1206,12 +1206,12 @@ const directoryData = [
   },
   {
     "name": "P Barik",
-    "designation": "GA",
+    "designation": "General Assistant (GA)",
     "phone": 9004470534
   },
   {
     "name": "Medical Control",
-    "designation": "CONTROLLER",
+    "designation": "Controller",
     "phone": 9004470777
   },
   {
@@ -1326,17 +1326,17 @@ const directoryData = [
   },
   {
     "name": "Rajesh Kumar Singh",
-    "designation": "METM/BEL",
+    "designation": "Mail Express Train Manager (METM)/BEL",
     "phone": 9004470786
   },
   {
     "name": "Pradeep M Thanekar",
-    "designation": "METM/BEL",
+    "designation": "Mail Express Train Manager (METM)/BEL",
     "phone": 9004470789
   },
   {
     "name": "Madukar V Naik",
-    "designation": "METM/BEL",
+    "designation": "Mail Express Train Manager (METM)/BEL",
     "phone": 9004470793
   },
   {

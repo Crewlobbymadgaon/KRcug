@@ -1,7 +1,7 @@
 const directoryData = [
   {
     "name": "Santosh Kumar Jha",
-    "designation": "CMD",
+    "designation": "CHAIRMAN & MANAGING DIRECTOR (CMD)",
     "phone": 9004447000, isHOD: true
   },
   {

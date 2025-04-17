@@ -1,22 +1,22 @@
 const directoryData = [
   {
     "name": "Santosh Kumar Jha",
-    "designation": "CHAIRMAN & MANAGING DIRECTOR (CMD)",
+    "designation": "Chairman & Managing Director (CMD)",
     "phone": 9004447000, isHOD: true
   },
   {
     "name": "R M Bhadang",
-    "designation": "DIR(F)",
+    "designation": "Director Finance (DIR-F)",
     "phone": 9004447009, isHOD: true
   },
   {
     "name": "Santosh Kumar Jha",
-    "designation": "DIR(O&C)/Additional Charges",
+    "designation": "Director(Operations & Commercial) (DIR-O&C)",
     "phone": 9004447001, isHOD: true
   },
   {
     "name": "R K Hegde",
-    "designation": "DIR( W&W )",
+    "designation": "Director(Way & Works) (DIR-W&W)",
     "phone": 9004447002, isHOD: true
   },
   {
@@ -26,42 +26,42 @@ const directoryData = [
   },
   {
     "name": "Sheetal Sharma",
-    "designation": "Sr.ADGM(Co-ordination to CMD)",
+    "designation": "Sr ADGM(Co-ordination to CMD)",
     "phone": 9004470392, isHOD: true
   },
   {
     "name": "Vaidehi R Nanivadekar",
-    "designation": "SEC TO CMD",
+    "designation": "Secretary to CMD",
     "phone": 9004447007
   },
   {
     "name": "Akanksha J Sonawane",
-    "designation": "SEC II TO CMD",
+    "designation": "Secretary-II to CMD",
     "phone": 9004470367
   },
   {
     "name": "Smita Raj",
-    "designation": "PS/Dir (FIN )",
+    "designation": "Personal Secretary/Dir(FIN)",
     "phone": 9004470318
   },
   {
     "name": "Anita Gracy M Chettiar",
-    "designation": "PS/(DIR(W&W)",
+    "designation": "Personal Secretary/(DIR(W&W)",
     "phone": 9004470715
   },
   {
     "name": "Netra A Girkar",
-    "designation": "PS",
+    "designation": "Personal Secretary",
     "phone": 9004470368
   },
   {
     "name": "Vishnu K Lad",
-    "designation": "GA",
+    "designation": "General Assistant",
     "phone": 9004470779
   },
   {
     "name": "Deepak Parab",
-    "designation": "GA",
+    "designation": "General Assistants",
     "phone": 9004470706
   },
   {

@@ -115,6 +115,11 @@ const directoryData = [
     "phone": 9004470563
   },
   {
+    "name": "Lobby Suratkal",
+    "designation": "Lobby SL",
+    "phone": 7624978576
+  },
+  {
     "name": "Vanita S D",
     "designation": "Office Superintendent (OS/Bonds)",
     "phone": 9321965823

@@ -11665,58 +11665,58 @@ const directoryData = [
     "phone": 9004476382
   },
   {
-    "name": "Unknown",
+    "name": "EIMWB/VEN-1",
     "designation": "EIMWB/VEN-1",
     "phone": 9004477580
   },
   {
-    "name": "Unknown",
+    "name": "EIMWB/VEN-2",
     "designation": "EIMWB/VEN-2",
     "phone": 7400408263
   },
   {
-    "name": "Unknown",
-    "designation": "PERN STN",
+    "name": "Pernem",
+    "designation": "PERN Station CUG",
     "phone": 9004476889
   },
   {
-    "name": "Unknown",
-    "designation": "THVM STN",
+    "name": "Thivim",
+    "designation": "THVM Station CUG",
     "phone": 9004476890
   },
   {
-    "name": "Unknown",
-    "designation": "KRMI STN",
+    "name": "Karmali",
+    "designation": "KRMI Station CUG",
     "phone": 9004476891
   },
   {
-    "name": "Unknown",
-    "designation": "VEN STN",
+    "name": "Verna",
+    "designation": "VEN Station CUG",
     "phone": 9004476892
   },
   {
-    "name": "Unknown",
-    "designation": "MJO STN",
+    "name": "Majorda",
+    "designation": "MJO Station CUG",
     "phone": 9004476893
   },
   {
-    "name": "Unknown",
-    "designation": "MAO STN",
+    "name": "Madgaon",
+    "designation": "MAO Station CUG",
     "phone": 9004476894
   },
   {
-    "name": "Unknown",
-    "designation": "BALL STN",
+    "name": "Balli",
+    "designation": "BLLI Station CUG",
     "phone": 7498815598
   },
   {
-    "name": "Unknown",
-    "designation": "CNO STN",
+    "name": "Canacona",
+    "designation": "CNO Station CUG",
     "phone": 9004476896
   },
   {
-    "name": "Unknown",
-    "designation": "LOL STN",
+    "name": "Loliem",
+    "designation": "LOL Station CUG",
     "phone": 9004476879
   }
 ];

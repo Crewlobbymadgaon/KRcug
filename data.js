@@ -120,6 +120,11 @@ const directoryData = [
     "phone": 7624978576
   },
   {
+    "name": "Power Controller",
+    "designation": "PRC",
+    "phone": 9004447599
+  },
+  {
     "name": "Vanita S D",
     "designation": "Office Superintendent (OS/Bonds)",
     "phone": 9321965823
@@ -676,7 +681,7 @@ const directoryData = [
   },
   {
     "name": "Electrical Control",
-    "designation": "Controller",
+    "designation": "TPC",
     "phone": 9004447699
   },
   {

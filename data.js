@@ -11576,92 +11576,92 @@ const directoryData = [
   },
   {
     "name": "Maheshwar Pawaskar",
-    "designation": "GTM/VEN",
+    "designation": "Senoir Goods Train Manager (GTM)/RN",
     "phone": 7400408796
   },
   {
     "name": "Prashant Naik",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/VEN",
     "phone": 7400408797
   },
   {
     "name": "Shrikanth Agale",
-    "designation": "GTM/VEN",
+    "designation": "Senoir Goods Train Manager (GTM)/RN",
     "phone": 7400408798
   },
   {
     "name": "Tejesh Maulingkar",
-    "designation": "GTM/VEN",
+    "designation": "Senoir Goods Train Manager (GTM)/VEN",
     "phone": 7400408799
   },
   {
     "name": "Aditya Ambekar",
-    "designation": "GTM/VEN",
+    "designation": "Senoir Goods Train Manager (GTM)/VEN",
     "phone": 7499159565
   },
   {
     "name": "Pratik Betal",
-    "designation": "GTM/VEN",
+    "designation": "Senoir Goods Train Manager (GTM)/RN",
     "phone": 7499162934
   },
   {
-    "name": "Hrishikesh H",
+    "name": "Goods Train Manager (GTM)/RN",
     "designation": "GTM/VEN",
     "phone": 7499162935
   },
   {
     "name": "Umesh Padatare",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162938
   },
   {
     "name": "Rahul Jadhav",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162939
   },
   {
     "name": "Mayuresh Borse",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162940
   },
   {
     "name": "Govind B Kale",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162941
   },
   {
     "name": "Yogesh B Mandole",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162943
   },
   {
     "name": "Sagar B Bajbalkar",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162954
   },
   {
     "name": "Mahendra Bhoi",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162957
   },
   {
     "name": "Prshant Patil",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 7499162955
   },
   {
-    "name": "Govind K.",
-    "designation": "GTM/VEN",
+    "name": "Govind K",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 9004479316
   },
   {
     "name": "Hitesh Gotarne",
-    "designation": "GTM/VEN",
+    "designation": "Goods Train Manager (GTM)/RN",
     "phone": 9004476147
   },
   {
     "name": "Sushil Kanhekar",
-    "designation": "GTM/VEN",
+    "designation": "Senior Goods Train Manager (SGTM)/VEN",
     "phone": 9004476382
   },
   {

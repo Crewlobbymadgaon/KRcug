@@ -6616,7 +6616,7 @@ const directoryData = [
   },
   {
     "name": "Prashant Gad",
-    "designation": "ATM",
+    "designation": "ATM/RN",
     "phone": 9004474411
   },
   {
@@ -6646,7 +6646,7 @@ const directoryData = [
   },
   {
     "name": "Arvind Kumar",
-    "designation": "SGTM",
+    "designation": "M/E Train Manager (METM)/RN",
     "phone": 9004478327
   },
   {

@@ -10707,7 +10707,7 @@ const directoryData = [
   {
     "name": "Shivaprasad P",
     "designation": "Goods Train Manager (GTM/VEN)",
-    "phone": 9356922287
+    "phone": 9035644606
   },
   {
     "name": "Suraj Gamare",
@@ -10722,10 +10722,10 @@ const directoryData = [
   {
     "name": "Rohan Khedekar",
     "designation": "Goods Train Manager (GTM/VEN)",
-    "phone": 9356922291
+    "phone": 7499162935
   },
   {
-    "name": "Shrinivas C",
+    "name": "Shrinivas Chitrapur",
     "designation": "ALP/MAO",
     "phone": 9356922292
   },
@@ -10760,8 +10760,8 @@ const directoryData = [
     "phone": 7400408181
   },
   {
-    "name": "R P khedekar",
-    "designation": "ALP/VEN",
+    "name": "Ramesh P khedekar",
+    "designation": "ALP/RN",
     "phone": 7400408194
   },
   {
@@ -10786,7 +10786,7 @@ const directoryData = [
   },
   {
     "name": "Nikhil Kadam",
-    "designation": "ALP/RN",
+    "designation": "ALP/VEN",
     "phone": 7400408195
   },
   {
@@ -10795,7 +10795,7 @@ const directoryData = [
     "phone": 7400408196
   },
   {
-    "name": "Mohan Naik",
+    "name": "Mohan J Naik",
     "designation": "ALP/MAO",
     "phone": 7400408197
   },
@@ -10803,11 +10803,6 @@ const directoryData = [
     "name": "Pradeep P G",
     "designation": "ALP/VEN",
     "phone": 7400408198
-  },
-  {
-    "name": "Manjunath N",
-    "designation": "ALP/VEN",
-    "phone": 7400408204
   },
   {
     "name": "Rupesh J",
@@ -10825,7 +10820,7 @@ const directoryData = [
     "phone": 9004474821
   },
   {
-    "name": "Sarvesh Mohan T",
+    "name": "Sarvesh Thanekar",
     "designation": "ALP/VEN",
     "phone": 7400408180
   },
@@ -10835,12 +10830,12 @@ const directoryData = [
     "phone": 7400408182
   },
   {
-    "name": "Dhanajaya",
+    "name": "Dhanajaya B Acharya",
     "designation": "ALP/MAO",
     "phone": 7400408184
   },
   {
-    "name": "Kamalkant Gaonkar",
+    "name": "Kamalakant Gaonkar",
     "designation": "ALP/VEN",
     "phone": 7400408185
   },
@@ -10855,7 +10850,7 @@ const directoryData = [
     "phone": 7400408187
   },
   {
-    "name": "Dattaram S",
+    "name": "Dattaram Sawal",
     "designation": "ALP/MAO",
     "phone": 7400408188
   },
@@ -10865,7 +10860,7 @@ const directoryData = [
     "phone": 7400408189
   },
   {
-    "name": "Goutam M",
+    "name": "Goutam Mayekar",
     "designation": "ALP/MAO",
     "phone": 7400408190
   },
@@ -10875,7 +10870,7 @@ const directoryData = [
     "phone": 7400408191
   },
   {
-    "name": "Chandrakant M",
+    "name": "Chandrakant Madkaikar",
     "designation": "ALP/MAO",
     "phone": 7400408192
   },
@@ -10895,17 +10890,17 @@ const directoryData = [
     "phone": 7400408202
   },
   {
-    "name": "Majunath N",
+    "name": "Majunath I Naik",
     "designation": "ALP/MAO",
     "phone": 7400408205
   },
   {
-    "name": "Suresh",
+    "name": "Suresha",
     "designation": "ALP/MAO",
     "phone": 7400408206
   },
   {
-    "name": "Kashiram",
+    "name": "K T Pednekar",
     "designation": "ALP/MAO",
     "phone": 7400408207
   },
@@ -10950,7 +10945,7 @@ const directoryData = [
     "phone": 7400408217
   },
   {
-    "name": "Prakash S",
+    "name": "Prakash Shetty",
     "designation": "LP/MAO",
     "phone": 7400408218
   },
@@ -11021,12 +11016,12 @@ const directoryData = [
   },
   {
     "name": "Lobby Madgaon",
-    "designation": "Lobby Madgaon",
+    "designation": "MAO Lobby",
     "phone": 9004477112
   },
   {
     "name": "Lobby Verna",
-    "designation": "Lobby Verna",
+    "designation": "VEN Lobby",
     "phone": 9004477114
   },
   {
@@ -11090,7 +11085,7 @@ const directoryData = [
     "phone": 9004476168
   },
   {
-    "name": "Harishchandra P Kasar",
+    "name": "Harishchandra P Kaskar",
     "designation": "Senoir Goods Train Manager (SGTM)/VEN",
     "phone": 9004476170
   },
@@ -11175,7 +11170,7 @@ const directoryData = [
     "phone": 9004478143
   },
   {
-    "name": "Eramveetil Manoj",
+    "name": "E Manoj",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479073
   },
@@ -11190,7 +11185,7 @@ const directoryData = [
     "phone": 9004479114
   },
   {
-    "name": "Venkatesh R Bhandari",
+    "name": "V R Bhandari",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479116
   },
@@ -11205,7 +11200,7 @@ const directoryData = [
     "phone": 9004479147
   },
   {
-    "name": "Krishna A Gawade",
+    "name": "K A Gawade",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479148
   },
@@ -11215,7 +11210,7 @@ const directoryData = [
     "phone": 9004479149
   },
   {
-    "name": "Gajanan V Arolkar",
+    "name": "G V Arolkar",
     "designation": "TMR INCHG/MAO",
     "phone": 9004479152
   },
@@ -11230,7 +11225,7 @@ const directoryData = [
     "phone": 9004479177
   },
   {
-    "name": "Ganpati N Hegade",
+    "name": "G N Hegade",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479187
   },
@@ -11250,17 +11245,17 @@ const directoryData = [
     "phone": 9004479225
   },
   {
-    "name": "Salunkhe Anil Raya",
+    "name": "Anil Salunkhe",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479226
   },
   {
-    "name": "Pratapchandra Tiu",
+    "name": "P C Tiu",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479267
   },
   {
-    "name": "Naik Prakash Pada",
+    "name": "Prakash Naik",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479268
   },
@@ -11270,7 +11265,7 @@ const directoryData = [
     "phone": 9004479269
   },
   {
-    "name": "Radhakrishna Shetty",
+    "name": "R K Shetty",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479270
   },
@@ -11280,17 +11275,17 @@ const directoryData = [
     "phone": 9004479281
   },
   {
-    "name": "Ramesh Nanda Gaonkar",
+    "name": "R N Gaonkar",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479282
   },
   {
-    "name": "Suresh N Shetty",
+    "name": "S N Shetty",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479283
   },
   {
-    "name": "Datta T Hegade",
+    "name": "D T Hegade",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479284
   },
@@ -11300,12 +11295,12 @@ const directoryData = [
     "phone": 9004479285
   },
   {
-    "name": "Prakash C Biswas",
+    "name": "P C Biswas",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479287
   },
   {
-    "name": "Binodkumar Poddar",
+    "name": "Binod Kumar Poddar",
     "designation": "M/E Train Manager (METM)/RN",
     "phone": 9004479288
   },
@@ -11325,7 +11320,7 @@ const directoryData = [
     "phone": 9004479291
   },
   {
-    "name": "Subhashchandra B Shetty",
+    "name": "S B Shetty",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479292
   },
@@ -11335,7 +11330,7 @@ const directoryData = [
     "phone": 9004479293
   },
   {
-    "name": "Mohamd Ismile",
+    "name": "Md Ismile",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479294
   },
@@ -11345,27 +11340,27 @@ const directoryData = [
     "phone": 9004479295
   },
   {
-    "name": "Hanumanta S Gouda",
+    "name": "H S Gouda",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479296
   },
   {
-    "name": "Satyananad J Shetty",
+    "name": "S J Shetty",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479297
   },
   {
-    "name": "Sudhirkumar Shetty",
+    "name": "S K Shetty",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479299
   },
   {
-    "name": "Mani G Naik",
+    "name": "M G Naik",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479301
   },
   {
-    "name": "Krishanakumar Shetty",
+    "name": "K K Shetty",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479302
   },
@@ -11405,7 +11400,7 @@ const directoryData = [
     "phone": 9004479309
   },
   {
-    "name": "Honnayya M Gonda",
+    "name": "Ht M Gonda",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479311
   },

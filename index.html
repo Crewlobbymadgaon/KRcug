@@ -230,24 +230,20 @@
       render(filtered);
     }
 
-    function shareContact(name, designation, phone, email) {
-  const shareText = `📇 Contact Info:
-👤 Name: ${name}
-🏢 Designation: ${designation}
-📞 Phone: ${phone}
-✉️ Email: ${email}`;
-
-  if (navigator.share) {
-    navigator.share({
-      title: 'Contact Info',
-      text: shareText,
-    })
-    .then(() => console.log('Contact shared successfully!'))
-    .catch((error) => console.error('Error sharing contact:', error));
-  } else {
-    alert('Sharing is not supported in this browser.');
+    <script>
+  function shareContact(contactText) {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Contact Info',
+        text: contactText, // Only emoji-labeled values
+      })
+      .then(() => console.log('Contact shared successfully!'))
+      .catch((error) => console.error('Error sharing contact:', error));
+    } else {
+      alert('Sharing is not supported in this browser.');
+    }
   }
-}
+
 
  </script>
 </body>

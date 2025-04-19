@@ -230,25 +230,18 @@
       render(filtered);
     }
 
-    function shareContactAsText(name, designation, phone) {
-  const content = `📇 Contact Info\n\n👤 Name: ${name}\n💼 Designation: ${designation}\n📞 Phone: ${phone}`;
-
-  if (navigator.share) {
-    navigator.share({
-      title: "Contact Info",
-      text: content,
-    }).catch((error) => {
-      console.error("Sharing failed", error);
-      alert("Sharing failed. Please try again.");
-    });
-  } else {
-    // Fallback for WhatsApp
-    const encoded = encodeURIComponent(content);
-    window.open(`https://wa.me/?text=${encoded}`, "_blank");
-  }
-}
-
-
-  </script>
+    function shareContact(contactText) {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Contact Info',
+          text: contactText, // Only sharing contact information, not the URL
+        })
+        .then(() => console.log('Contact shared successfully!'))
+        .catch((error) => console.error('Error sharing contact:', error));
+      } else {
+        alert('Sharing is not supported in this browser.');
+      }
+    }
+ </script>
 </body>
 </html>

@@ -188,50 +188,47 @@
 
   <script src="data.js"></script>
   <script>
-    function render(data) {
-      const container = document.getElementById("directory");
-      if (data.length === 0) {
-        container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
-        return;
-      }
+  function render(data) {
+    const container = document.getElementById("directory");
+    if (data.length === 0) {
+      container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
+      return;
+    }
 
-      container.innerHTML = data.map(p => {
-        const showCall = p.isHOD !== true;
-        const shareText = `${p.name} - ${p.designation} (${p.phone})`; // Now sharing name, designation, and phone only
-        const hodClass = p.isHOD ? "hod" : ""; // Adding a class for HOD
+    container.innerHTML = data.map(p => {
+      const showCall = p.isHOD !== true;
+      const hodClass = p.isHOD ? "hod" : "";
 
-        return `
-          <div class="card ${hodClass}">
-            <h3>${p.name}</h3>
-            <p>${p.designation}</p>
-            <p class="phone">${p.phone}</p>
-            <div class="actions">
-              ${showCall ? `<a href="tel:${p.phone}">Call</a>` : ""}
-              <a href="#" class="share-btn" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}')">🔗 Share</a>
-              </div>
+      return `
+        <div class="card ${hodClass}">
+          <h3>${p.name}</h3>
+          <p>${p.designation}</p>
+          <p class="phone">${p.phone}</p>
+          <div class="actions">
+            ${showCall ? `<a href="tel:${p.phone}">Call</a>` : ""}
+            <a href="#" class="share-btn" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}')">🔗 Share</a>
           </div>
-        `;
-      }).join('');
+        </div>
+      `;
+    }).join('');
+  }
+
+  function searchDirectory() {
+    const query = document.getElementById("search").value.toLowerCase();
+    if (query === "") {
+      document.getElementById("directory").innerHTML = "";
+      return;
     }
 
-    function searchDirectory() {
-      const query = document.getElementById("search").value.toLowerCase();
-      if (query === "") {
-        document.getElementById("directory").innerHTML = "";
-        return;
-      }
+    const filtered = directoryData.filter(p =>
+      Object.values(p).some(val =>
+        String(val).toLowerCase().includes(query)
+      )
+    );
 
-      const filtered = directoryData.filter(p =>
-        Object.values(p).some(val =>
-          String(val).toLowerCase().includes(query)
-        )
-      );
+    render(filtered);
+  }
 
-      render(filtered);
-    }
-
-    <script>
- <script>
   function shareContact(name, designation, phone) {
     const shareText = `👤 ${name}\n🏢 ${designation}\n📞 ${phone}`;
     if (navigator.share) {
@@ -247,9 +244,5 @@
   }
 </script>
 
-
-
-
- </script>
 </body>
 </html>

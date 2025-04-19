@@ -16,10 +16,7 @@
       flex-direction: column;
       min-height: 100vh;
     }
-.card.hod {
-  border: 2px solid #ff9800;
-  background-color: #fff8e1;
-}
+
     .logo {
       text-align: center;
       margin-bottom: 10px;
@@ -29,32 +26,34 @@
       max-width: 100px;
       height: auto;
     }
-h1 {
-  text-align: center;
-  color: #333;
-  margin-top: 5px;
-  line-height: 1.1;
-}
 
-.heading-main {
-  display: block;
-}
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 5px;
+      line-height: 1.1;
+    }
 
-.divider-full {
-  border: none;
-  border-top: 1px solid #ccc;
-  width: 100%;
-  margin: 6px 0;
-}
+    .heading-main {
+      display: block;
+    }
 
-.subheading {
-  font-size: 22px;
-  color: #333;
-  font-weight: bold;
-  display: block;
-  margin-top: 2px;
-}
-        .search-container {
+    .divider-full {
+      border: none;
+      border-top: 1px solid #ccc;
+      width: 100%;
+      margin: 6px 0;
+    }
+
+    .subheading {
+      font-size: 22px;
+      color: #333;
+      font-weight: bold;
+      display: block;
+      margin-top: 2px;
+    }
+
+    .search-container {
       display: flex;
       justify-content: center;
       margin: 20px 0;
@@ -70,6 +69,7 @@ h1 {
       background-color: #fff;
       color: #333;
       transition: all 0.3s ease;
+      text-align: center;
     }
 
     input:focus {
@@ -111,12 +111,14 @@ h1 {
       color: #333;
       margin: 10px 0 5px 0;
     }
-.phone {
-  font-size: 16px;
-  font-weight: bold;
-  color: #000;
-  margin: 4px 0;
-}
+
+    .phone {
+      font-size: 16px;
+      font-weight: bold;
+      color: #000;
+      margin: 4px 0;
+    }
+
     .card p {
       font-size: 14px;
       color: #555;
@@ -125,6 +127,10 @@ h1 {
 
     .actions {
       margin-top: 10px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
     }
 
     .actions a {
@@ -166,15 +172,14 @@ h1 {
     <img src="logo.png" alt="Logo" />
   </div>
 
- <h1>
-  <span class="heading-main">Mobile Directory</span>
-  <hr class="divider-full">
-  <span class="subheading">CUG</span>
-</h1>
+  <h1>
+    <span class="heading-main">Mobile Directory</span>
+    <hr class="divider-full">
+    <span class="subheading">CUG</span>
+  </h1>
 
   <div class="search-container">
-    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." style="text-align: center;" />
-  
+    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name, designation, or mobile number..." />
   </div>
 
   <div id="directory"></div>
@@ -182,69 +187,39 @@ h1 {
   <footer>Created by Sajeesh P</footer>
 
   <script src="data.js"></script>
-<script>
-  function render(data) {
-    const container = document.getElementById("directory");
-    if (data.length === 0) {
-      container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
-      return;
-    }
+  <script>
+    function render(data) {
+      const container = document.getElementById("directory");
+      if (data.length === 0) {
+        container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
+        return;
+      }
 
-    container.innerHTML = data.map(p => {
-      const isHOD = p.isHOD === true;
-      const showCall = !isHOD;
-      const designation = isHOD ? `<strong>${p.designation}</strong>` : p.designation;
-      const hodClass = isHOD ? "hod" : "";
-
-      return `
-        <div class="card ${hodClass}">
-          <h3>${p.name}</h3>
-          <p>${designation}</p>
-          <p class="phone">${p.phone}</p>
-          ${showCall ? `
+      container.innerHTML = data.map(p => {
+        const showCall = p.isHOD !== true;
+        return `
+          <div class="card">
+            <h3>${p.name}</h3>
+            <p>${p.designation}</p>
+            <p class="phone">${p.phone}</p>
             <div class="actions">
-              <a href="tel:${p.phone}">Call</a>
-              <a href="#" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}'); return false;">Share</a>
-            </div>` : ""}
-        </div>
-      `;
-    }).join('');
-  }
-
-  function searchDirectory() {
-    const query = document.getElementById("search").value.toLowerCase();
-    if (query === "") {
-      render(directoryData);
-      return;
+              ${showCall ? `<a href="tel:${p.phone}">Call</a>` : ""}
+              <a href="sms:${p.phone}">Share</a>
+            </div>
+          </div>
+        `;
+      }).join('');
     }
 
-    const filtered = directoryData.filter(p =>
-      Object.values(p).some(val =>
-        String(val).toLowerCase().includes(query)
-      )
-    );
-
-    render(filtered);
-  }
-
-  function shareContact(name, designation, phone) {
-    const shareData = {
-      title: `${name} - ${designation}`,
-      text: `Contact Info:\nName: ${name}\nDesignation: ${designation}\nPhone: ${phone}`
-    };
-
-    if (navigator.share) {
-      navigator.share(shareData).catch(err => {
-        console.error("Share failed:", err);
-      });
-    } else {
-      alert("Sharing not supported. Copy manually:\n\n" + shareData.text);
+    function searchDirectory() {
+      const query = document.getElementById("search").value.toLowerCase().trim();
+      const filtered = directoryData.filter(p =>
+        [p.name, p.designation, p.phone].some(val =>
+          String(val).toLowerCase().includes(query)
+        )
+      );
+      render(filtered);
     }
-  }
-
-  // Initial render
-  render(directoryData);
-</script>
-
+  </script>
 </body>
 </html>

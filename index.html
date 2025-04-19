@@ -182,46 +182,69 @@ h1 {
   <footer>Created by Sajeesh P</footer>
 
   <script src="data.js"></script>
-  <script>
+<script>
   function render(data) {
-  const container = document.getElementById("directory");
-  if (data.length === 0) {
-    container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
-    return;
+    const container = document.getElementById("directory");
+    if (data.length === 0) {
+      container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
+      return;
+    }
+
+    container.innerHTML = data.map(p => {
+      const isHOD = p.isHOD === true;
+      const showCall = !isHOD;
+      const designation = isHOD ? `<strong>${p.designation}</strong>` : p.designation;
+      const hodClass = isHOD ? "hod" : "";
+
+      return `
+        <div class="card ${hodClass}">
+          <h3>${p.name}</h3>
+          <p>${designation}</p>
+          <p class="phone">${p.phone}</p>
+          ${showCall ? `
+            <div class="actions">
+              <a href="tel:${p.phone}">Call</a>
+              <a href="#" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}'); return false;">Share</a>
+            </div>` : ""}
+        </div>
+      `;
+    }).join('');
   }
 
-  container.innerHTML = data.map(p => {
-    const isHOD = p.isHOD === true;
-    const showCall = !isHOD;
-    const designation = isHOD ? `<strong>${p.designation}</strong>` : p.designation;
-    const hodClass = isHOD ? "hod" : "";
-
-    return `
-      <div class="card ${hodClass}">
-        <h3>${p.name}</h3>
-        <p>${designation}</p>
-        <p class="phone">${p.phone}</p>
-        ${showCall ? `<div class="actions"><a href="tel:${p.phone}">Call</a></div>` : ""}
-      </div>
-    `;
-  }).join('');
-}
-
-    function searchDirectory() {
-      const query = document.getElementById("search").value.toLowerCase();
-      if (query === "") {
-        document.getElementById("directory").innerHTML = "";
-        return;
-      }
-
-      const filtered = directoryData.filter(p =>
-        Object.values(p).some(val =>
-          String(val).toLowerCase().includes(query)
-        )
-      );
-
-      render(filtered);
+  function searchDirectory() {
+    const query = document.getElementById("search").value.toLowerCase();
+    if (query === "") {
+      render(directoryData);
+      return;
     }
-  </script>
+
+    const filtered = directoryData.filter(p =>
+      Object.values(p).some(val =>
+        String(val).toLowerCase().includes(query)
+      )
+    );
+
+    render(filtered);
+  }
+
+  function shareContact(name, designation, phone) {
+    const shareData = {
+      title: `${name} - ${designation}`,
+      text: `Contact Info:\nName: ${name}\nDesignation: ${designation}\nPhone: ${phone}`
+    };
+
+    if (navigator.share) {
+      navigator.share(shareData).catch(err => {
+        console.error("Share failed:", err);
+      });
+    } else {
+      alert("Sharing not supported. Copy manually:\n\n" + shareData.text);
+    }
+  }
+
+  // Initial render
+  render(directoryData);
+</script>
+
 </body>
 </html>

@@ -124,9 +124,8 @@ h1 {
     }
 
     .actions {
-  margin-top: 10px;
-}
-
+      margin-top: 10px;
+    }
 
     .actions a {
       text-decoration: none;
@@ -203,22 +202,10 @@ h1 {
         <p>${designation}</p>
         <p class="phone">${p.phone}</p>
         ${showCall ? `<div class="actions"><a href="tel:${p.phone}">Call</a></div>` : ""}
+      </div>
+    `;
   }).join('');
 }
-    function shareContact(name, designation, phone) {
-    const shareData = {
-      title: `${name} - ${designation}`,
-      text: `Contact Info:\nName: ${name}\nDesignation: ${designation}\nPhone: ${phone}`,
-    };
-
-    if (navigator.share) {
-      navigator.share(shareData).catch(err => {
-        console.error("Share failed:", err);
-      });
-    } else {
-      alert("Sharing is not supported on this device. Copy manually:\n\n" + shareData.text);
-    }
-  }
 
     function searchDirectory() {
       const query = document.getElementById("search").value.toLowerCase();

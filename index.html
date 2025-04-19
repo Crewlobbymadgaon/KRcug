@@ -17,6 +17,11 @@
       min-height: 100vh;
     }
 
+    .card.hod {
+      border: 2px solid #ff9800; /* Border color for HOD */
+      background-color: #fff8e1; /* Light yellow background for HOD */
+    }
+
     .logo {
       text-align: center;
       margin-bottom: 10px;
@@ -69,7 +74,6 @@
       background-color: #fff;
       color: #333;
       transition: all 0.3s ease;
-      text-align: center;
     }
 
     input:focus {
@@ -127,10 +131,6 @@
 
     .actions {
       margin-top: 10px;
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-      flex-wrap: wrap;
     }
 
     .actions a {
@@ -179,7 +179,7 @@
   </h1>
 
   <div class="search-container">
-    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name, designation, or mobile number..." />
+    <input type="text" oninput="searchDirectory()" id="search" placeholder="Search by name or designation..." style="text-align: center;" />
   </div>
 
   <div id="directory"></div>
@@ -197,14 +197,17 @@
 
       container.innerHTML = data.map(p => {
         const showCall = p.isHOD !== true;
+        const shareText = `${p.name} - ${p.designation} (${p.phone})`;
+        const hodClass = p.isHOD ? "hod" : ""; // Adding a class for HOD
+
         return `
-          <div class="card">
+          <div class="card ${hodClass}">
             <h3>${p.name}</h3>
             <p>${p.designation}</p>
             <p class="phone">${p.phone}</p>
             <div class="actions">
               ${showCall ? `<a href="tel:${p.phone}">Call</a>` : ""}
-              <a href="sms:${p.phone}">Share</a>
+              <a href="#" class="share-btn" onclick="shareContact('${shareText}')">Share</a>
             </div>
           </div>
         `;
@@ -212,13 +215,33 @@
     }
 
     function searchDirectory() {
-      const query = document.getElementById("search").value.toLowerCase().trim();
+      const query = document.getElementById("search").value.toLowerCase();
+      if (query === "") {
+        document.getElementById("directory").innerHTML = "";
+        return;
+      }
+
       const filtered = directoryData.filter(p =>
-        [p.name, p.designation, p.phone].some(val =>
+        Object.values(p).some(val =>
           String(val).toLowerCase().includes(query)
         )
       );
+
       render(filtered);
+    }
+
+    function shareContact(contactText) {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Contact Info',
+          text: contactText,
+          url: window.location.href
+        })
+        .then(() => console.log('Contact shared successfully!'))
+        .catch((error) => console.error('Error sharing contact:', error));
+      } else {
+        alert('Sharing is not supported in this browser.');
+      }
     }
   </script>
 </body>

@@ -197,7 +197,7 @@
 
       container.innerHTML = data.map(p => {
         const showCall = p.isHOD !== true;
-        const shareText = `${p.name} - ${p.designation} (${p.phone})`;
+        const shareText = `${p.name} - ${p.designation} (${p.phone})`; // Now sharing name, designation, and phone only
         const hodClass = p.isHOD ? "hod" : ""; // Adding a class for HOD
 
         return `
@@ -234,8 +234,7 @@
       if (navigator.share) {
         navigator.share({
           title: 'Contact Info',
-          text: contactText,
-          url: window.location.href
+          text: contactText, // Only sharing contact information, not the URL
         })
         .then(() => console.log('Contact shared successfully!'))
         .catch((error) => console.error('Error sharing contact:', error));

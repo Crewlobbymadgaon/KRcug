@@ -124,8 +124,13 @@ h1 {
     }
 
     .actions {
-      margin-top: 10px;
-    }
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 
     .actions a {
       text-decoration: none;
@@ -201,11 +206,30 @@ h1 {
         <h3>${p.name}</h3>
         <p>${designation}</p>
         <p class="phone">${p.phone}</p>
-        ${showCall ? `<div class="actions"><a href="tel:${p.phone}">Call</a></div>` : ""}
-      </div>
+        ${showCall ? `
+  <div class="actions">
+    <a href="tel:${p.phone}">Call</a>
+    <a href="#" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}'); return false;">Share</a>
+  </div>
+` : ""}
+
     `;
   }).join('');
 }
+    function shareContact(name, designation, phone) {
+    const shareData = {
+      title: `${name} - ${designation}`,
+      text: `Contact Info:\nName: ${name}\nDesignation: ${designation}\nPhone: ${phone}`,
+    };
+
+    if (navigator.share) {
+      navigator.share(shareData).catch(err => {
+        console.error("Share failed:", err);
+      });
+    } else {
+      alert("Sharing is not supported on this device. Copy manually:\n\n" + shareData.text);
+    }
+  }
 
     function searchDirectory() {
       const query = document.getElementById("search").value.toLowerCase();

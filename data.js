@@ -10665,7 +10665,7 @@ const directoryData = [
     "phone": 7400408293
   },
   {
-    "name": "Abhijit V K",
+    "name": "Abhijith V K",
     "designation": "ALP/MAO",
     "phone": 9356922278
   },

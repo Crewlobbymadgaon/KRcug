@@ -18,8 +18,8 @@
     }
 
     .card.hod {
-      border: 2px solid #ff9800; /* Border color for HOD */
-      background-color: #fff8e1; /* Light yellow background for HOD */
+      border: 2px solid #ff9800;
+      background-color: #fff8e1;
     }
 
     .logo {
@@ -135,16 +135,33 @@
 
     .actions a {
       text-decoration: none;
-      color: #007bff;
       font-weight: bold;
-      padding: 5px 10px;
-      border: 1px solid #007bff;
-      border-radius: 5px;
+      padding: 8px 14px;
+      border-radius: 25px;
+      display: inline-block;
+      margin: 5px;
+      font-size: 14px;
+      transition: all 0.3s ease;
     }
 
-    .actions a:hover {
+    .call-btn {
+      background-color: #28a745;
+      color: #fff;
+      border: 1px solid #28a745;
+    }
+
+    .call-btn:hover {
+      background-color: #218838;
+    }
+
+    .share-btn {
       background-color: #007bff;
       color: #fff;
+      border: 1px solid #007bff;
+    }
+
+    .share-btn:hover {
+      background-color: #0056b3;
     }
 
     footer {
@@ -188,61 +205,60 @@
 
   <script src="data.js"></script>
   <script>
-  function render(data) {
-    const container = document.getElementById("directory");
-    if (data.length === 0) {
-      container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
-      return;
-    }
+    function render(data) {
+      const container = document.getElementById("directory");
+      if (data.length === 0) {
+        container.innerHTML = "<p style='text-align:center;'>No contacts found. Try searching!</p>";
+        return;
+      }
 
-    container.innerHTML = data.map(p => {
-      const showCall = p.isHOD !== true;
-      const hodClass = p.isHOD ? "hod" : "";
+      container.innerHTML = data.map(p => {
+        const showCall = p.isHOD !== true;
+        const hodClass = p.isHOD ? "hod" : "";
 
-      return `
-        <div class="card ${hodClass}">
-          <h3>${p.name}</h3>
-          <p>${p.designation}</p>
-          <p class="phone">${p.phone}</p>
-          <div class="actions">
-            ${showCall ? `<a href="tel:${p.phone}">Call</a>` : ""}
-            <a href="#" class="share-btn" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}')">🔗 Share</a>
+        return `
+          <div class="card ${hodClass}">
+            <h3>${p.name}</h3>
+            <p>${p.designation}</p>
+            <p class="phone">${p.phone}</p>
+            <div class="actions">
+              ${showCall ? `<a href="tel:${p.phone}" class="call-btn">📞 Call</a>` : ""}
+              <a href="#" class="share-btn" onclick="shareContact('${p.name}', '${p.designation}', '${p.phone}')">🔗 Share</a>
+            </div>
           </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  function searchDirectory() {
-    const query = document.getElementById("search").value.toLowerCase();
-    if (query === "") {
-      document.getElementById("directory").innerHTML = "";
-      return;
+        `;
+      }).join('');
     }
 
-    const filtered = directoryData.filter(p =>
-      Object.values(p).some(val =>
-        String(val).toLowerCase().includes(query)
-      )
-    );
+    function searchDirectory() {
+      const query = document.getElementById("search").value.toLowerCase();
+      if (query === "") {
+        document.getElementById("directory").innerHTML = "";
+        return;
+      }
 
-    render(filtered);
-  }
+      const filtered = directoryData.filter(p =>
+        Object.values(p).some(val =>
+          String(val).toLowerCase().includes(query)
+        )
+      );
 
-  function shareContact(name, designation, phone) {
-    const shareText = `👤 ${name}\n🏢 ${designation}\n📱 ${phone}`;
-    if (navigator.share) {
-      navigator.share({
-        title: 'Contact Info',
-        text: shareText,
-      })
-      .then(() => console.log('Contact shared successfully!'))
-      .catch((error) => console.error('Error sharing contact:', error));
-    } else {
-      alert('Sharing is not supported in this browser.');
+      render(filtered);
     }
-  }
-</script>
 
+    function shareContact(name, designation, phone) {
+      const shareText = `👤 ${name}\n🏢 ${designation}\n📱 ${phone}`;
+      if (navigator.share) {
+        navigator.share({
+          title: 'Contact Info',
+          text: shareText,
+        })
+        .then(() => console.log('Contact shared successfully!'))
+        .catch((error) => console.error('Error sharing contact:', error));
+      } else {
+        alert('Sharing is not supported in this browser.');
+      }
+    }
+  </script>
 </body>
 </html>

@@ -140,8 +140,8 @@ const directoryData = [
     "phone": 7624978576
   },
   {
-    "name": "Power Controller",
-    "designation": "PRC",
+    "name": "Power Controller KRCL",
+    "designation": "PRC/BEL",
     "phone": 9004447599
   },
   {

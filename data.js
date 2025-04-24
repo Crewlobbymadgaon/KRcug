@@ -1,5 +1,20 @@
 const directoryData = [
   {
+    "name": "Lobby Mangalore Central",
+    "designation": "Lobby MAQ",
+    "phone": 9746740260
+  },
+  {
+    "name": "Lobby Mangalore Junction",
+    "designation": "Lobby MAJN",
+    "phone": 6238902022
+  },
+  {
+    "name": "Power Controller PGT",
+    "designation": "PRC PGT",
+    "phone": 9746763323
+  },
+  {
     "name": "V D Rane",
     "designation": "LPG/RN",
     "phone": 9004474871

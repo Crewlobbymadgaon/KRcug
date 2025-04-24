@@ -10005,7 +10005,7 @@ const directoryData = [
     "phone": 7400408294
   },
   {
-    "name": "Jagdish Moger",
+    "name": "Jagadeesh Moger",
     "designation": "LPP/MAO",
     "phone": 9004476385
   },

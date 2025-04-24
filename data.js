@@ -9432,7 +9432,7 @@ const directoryData = [
   {
     "name": "Gautam Gaude",
     "designation": "AME/VEN",
-    "phone": 9373162751, isHOD: true
+    "phone": 7400408352, isHOD: true
   },
   {
     "name": "Govardhan Lal Balai",

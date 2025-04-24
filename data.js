@@ -10746,7 +10746,7 @@ const directoryData = [
   },
   {
     "name": "Sanjay Chopadekar",
-    "designation": "PRC",
+    "designation": "Office Clerk (VEN Lobby)",
     "phone": 7400408172
   },
   {

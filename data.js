@@ -11415,7 +11415,7 @@ const directoryData = [
     "phone": 9004479309
   },
   {
-    "name": "Ht M Gonda",
+    "name": "H M Gonda",
     "designation": "M/E Train Manager (METM)/MAO",
     "phone": 9004479311
   },
